@@ -19,10 +19,9 @@ Display retains image without power.
 - **Controller**: Raspberry Pi Zero 2 W (1GHz quad-core ARM Cortex-A53, 512MB RAM)
 - **Power Management**: Witty Pi 4 (Real-time clock with scheduled power control)
 - **Battery**: 4× INR18650-32M Akyga batteries (4S configuration)
-- **Controls**: <br>  
-  - Restart button (wake-up trigger)
-  - Maintenance switch (GPIO26, prevents auto-shutdown for SSH access)
-
+- **Controls**:
+   - Restart button (wake-up trigger)
+   - Maintenance switch (GPIO26, prevents auto-shutdown for SSH access)
 
 ## Project Structure
 
@@ -96,11 +95,11 @@ The main refresh script performs the following operations:
 2. **Image Selection**: Calculates daily index based on days elapsed since January 2, 2026
 3. **Data Caching**: Pre-loads artwork metadata and bitmap into memory before SPI operations
 4. **Display Rendering**:
-    - Loads 1600×1200 BMP artwork (pre-converted to 7-color Spectra 6 palette)
-    - Draws vertical date text on right margin (rotated 90°, color-coded by index)
-    - Draws vertical footer on left margin with:
-      - Artwork metadata (number, artist, title, year)
-      - Battery status (SOC% calculated from voltage via I2C)
+   - Loads 1600×1200 BMP artwork (pre-converted to 7-color Spectra 6 palette)
+   - Draws vertical date text on right margin (rotated 90°, color-coded by index)
+   - Draws vertical footer on left margin with:
+      - Artwork metadata (number, artist, title, year)
+      - Battery status (SOC% calculated from voltage via I2C)
 5. **E-Ink Refresh**: Full display update via SPI interface
 6. **Shutdown**: Automatic power-off (unless maintenance mode enabled)
 
@@ -120,7 +119,7 @@ The main refresh script performs the following operations:
 
 ## Artwork Preparation Pipeline
 
-Source:
+Source: <br>
 https://www.wikiart.org/en/App/Painting/MostViewedPaintings
 
 Steps:
@@ -128,9 +127,9 @@ Steps:
 2. `scrap.py` downloads JPG images
 3. `transform-json.py` creates index.json
 4. `convert.py`:
-    - resizes to 1600×1200
-    - quantizes to Spectra 6 palette
-    - outputs BMP files
+   - resizes to 1600×1200
+   - quantizes to Spectra 6 palette
+   - outputs BMP files
 
 Final assets stored in:
 - raspi/app/pic/
@@ -160,15 +159,15 @@ Documented in raspi/config/os.txt
 Includes:
 - SPI enabled
 - Python dependencies:
-    - pillow
-    - numpy
-    - spidev
-    - RPi.GPIO
-    - smbus2
+   - pillow
+   - numpy
+   - spidev
+   - RPi.GPIO
+   - smbus2
 - Witty Pi installation and I²C verification
 - systemd service:
-    - eink-update.service
-    - runs refresh.py at boot
+   - eink-update.service
+   - runs refresh.py at boot
 - boot parameter tuning via config.txt and cmdline.txt
 
 
@@ -184,4 +183,5 @@ Includes:
 ## License
 
 Apache-2.0 license
+<br>  
 Artwork copyrights remain with original owners.
