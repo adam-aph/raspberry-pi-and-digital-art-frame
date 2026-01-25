@@ -1,0 +1,1 @@
+spidev.bufsiz=65536 systemd.zram=0

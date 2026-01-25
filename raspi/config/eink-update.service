@@ -1,0 +1,13 @@
+[Unit]
+Description=Daily E-Ink Update
+After=multi-user.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/adamh/eink
+ExecStart=/usr/bin/python3 /home/adamh/eink/refresh.py
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

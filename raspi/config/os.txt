@@ -1,0 +1,27 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install vim
+
+sudo vim /boot/firmware/config.txt
+sudo vim /boot/firmware/cmdline.txt
+
+sudo apt-get update
+sudo apt-get install python3-pip
+sudo apt-get install python3-pil
+sudo apt-get install python3-numpy
+sudo apt-get install python3-spidev
+
+wget https://www.uugear.com/repo/WittyPi4/install.sh
+sudo sh install.sh
+i2cdetect -y 1
+
+sudo apt install python3-rpi.gpio python3-spidev
+
+sudo vim /etc/systemd/system/eink-update.service
+sudo systemctl daemon-reload
+sudo systemctl enable eink-update.service
+sudo systemctl start eink-update.service
+sudo systemctl status eink-update.service
+
+cp daily_update.wpi $my_dir/schedules/
+
