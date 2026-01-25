@@ -15,7 +15,7 @@ Display retains image without power.
 
 ## Hardware Components
 
-- **Display**: 13.3" E-Ink Spectra 6 (E6) Full Color E-Paper Display (1600×1200 pixels)
+- **Display**: Waveshare 13.3" E-Ink Spectra 6 (E6) Full Color E-Paper Display (1600×1200 pixels)
 - **Controller**: Raspberry Pi Zero 2 W (1GHz quad-core ARM Cortex-A53, 512MB RAM)
 - **Power Management**: Witty Pi 4 (Real-time clock with scheduled power control)
 - **Battery**: 4× INR18650-32M Akyga batteries (4S configuration)
@@ -56,7 +56,7 @@ Display retains image without power.
 
 ## Hardware Assembly
 
-### E-Ink Display
+### Waveshare E-Ink Display
 
 <img src="https://github.com/adam-aph/raspberry-pi-and-digital-art-frame/blob/main/media/e6.jpg" width=50% height=50%>
 
