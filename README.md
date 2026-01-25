@@ -57,13 +57,27 @@ Display retains image without power.
 
 ## Hardware Assembly
 
-![E-Ink Display](media/e6.jpg)
-![GPIO Pinout](media/pinout.jpg)
-![Artwork Example](media/r1.jpg)
-![Wall Mounted](media/r2.jpg)
-![Internal Setup](media/r3.jpg)
+### E-Ink Display
 
-### GPIO Connection Modifications
+<img src="https://github.com/adam-aph/raspberry-pi-and-digital-art-frame/blob/main/media/e6.jpg" width=50% height=50%>
+
+### GPIO Pinout
+
+<img src="https://github.com/adam-aph/raspberry-pi-and-digital-art-frame/blob/main/media/pinout.jpg" width=50% height=50%>
+
+### Artwork Example
+
+<img src="https://github.com/adam-aph/raspberry-pi-and-digital-art-frame/blob/main/media/r1.jpg" width=50% height=50%>
+
+### Wall Mounted
+
+<img src="https://github.com/adam-aph/raspberry-pi-and-digital-art-frame/blob/main/media/r2.jpg" width=50% height=50%>
+
+### Internal Setup
+
+<img src="https://github.com/adam-aph/raspberry-pi-and-digital-art-frame/blob/main/media/r3.jpg" width=50% height=50%>
+
+## GPIO Connection Modifications
 
 Due to GPIO conflicts between Witty Pi 4 and E6 HAT:
 
@@ -82,11 +96,11 @@ The main refresh script performs the following operations:
 2. **Image Selection**: Calculates daily index based on days elapsed since January 2, 2026
 3. **Data Caching**: Pre-loads artwork metadata and bitmap into memory before SPI operations
 4. **Display Rendering**:
-   - Loads 1600×1200 BMP artwork (pre-converted to 7-color Spectra 6 palette)
-   - Draws vertical date text on right margin (rotated 90°, color-coded by index)
-   - Draws vertical footer on left margin with:
-     - Artwork metadata (number, artist, title, year)
-     - Battery status (SOC% calculated from voltage via I2C)
+    - Loads 1600×1200 BMP artwork (pre-converted to 7-color Spectra 6 palette)
+    - Draws vertical date text on right margin (rotated 90°, color-coded by index)
+    - Draws vertical footer on left margin with:
+      - Artwork metadata (number, artist, title, year)
+      - Battery status (SOC% calculated from voltage via I2C)
 5. **E-Ink Refresh**: Full display update via SPI interface
 6. **Shutdown**: Automatic power-off (unless maintenance mode enabled)
 
@@ -114,12 +128,12 @@ Steps:
 2. `scrap.py` downloads JPG images
 3. `transform-json.py` creates index.json
 4. `convert.py`:
-   - resizes to 1600×1200
-   - quantizes to Spectra 6 palette
-   - outputs BMP files
+    - resizes to 1600×1200
+    - quantizes to Spectra 6 palette
+    - outputs BMP files
 
 Final assets stored in:
-raspi/app/pic/
+- raspi/app/pic/
 
 
 ## Technical Challenges & Solutions
@@ -146,15 +160,15 @@ Documented in raspi/config/os.txt
 Includes:
 - SPI enabled
 - Python dependencies:
-  - pillow
-  - numpy
-  - spidev
-  - RPi.GPIO
-  - smbus2
+    - pillow
+    - numpy
+    - spidev
+    - RPi.GPIO
+    - smbus2
 - Witty Pi installation and I²C verification
 - systemd service:
-  - eink-update.service
-  - runs refresh.py at boot
+    - eink-update.service
+    - runs refresh.py at boot
 - boot parameter tuning via config.txt and cmdline.txt
 
 
