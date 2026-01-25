@@ -19,7 +19,7 @@ Display retains image without power.
 - **Controller**: Raspberry Pi Zero 2 W (1GHz quad-core ARM Cortex-A53, 512MB RAM)
 - **Power Management**: Witty Pi 4 (Real-time clock with scheduled power control)
 - **Battery**: 4× INR18650-32M Akyga batteries (4S configuration)
-- **Controls**:
+- **Controls**: <br>  
   - Restart button (wake-up trigger)
   - Maintenance switch (GPIO26, prevents auto-shutdown for SSH access)
 
