@@ -44,7 +44,7 @@ Display retains image without power.
 │   └── config/
 │       ├── cmdline.txt     # Raspberry Pi boot parameters
 │       ├── config.txt      # Raspberry Pi hardware configuration
-│       ├── daily\_update.wpi # Witty Pi schedule (2 AM daily wake)
+│       ├── daily_update.wpi # Witty Pi schedule (2 AM daily wake)
 │       ├── eink-update.service # Systemd service definition
 │       └── os.txt          # Installation commands reference
 │
