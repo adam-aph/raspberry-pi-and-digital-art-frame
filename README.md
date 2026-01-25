@@ -141,7 +141,7 @@ Final assets stored in:
 
 **Problem**: After display refresh, system encountered bus errors and filesystem corruption, requiring hard reset.
 
-**Root Cause**: Kernel starvation and MMIO/IRQ livelock caused by long, non-yielding SPI + GPIO operations on PREEMPT kernel with active I2C device (Witty Pi).
+**Suspected Root Cause**: Kernel starvation and MMIO/IRQ livelock caused by long, non-yielding SPI + GPIO operations on PREEMPT kernel with active I2C device (Witty Pi).
 
 **Attempted Solutions**:
 1. Switched from BCM2835 low-level library to standard kernel SPI driver (`spidev`)
