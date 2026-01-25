@@ -1,12 +1,13 @@
 ## Contents:
 
-art files:
- - 0001_1600x1200.bmp
- - 0002_1600x1200.bmp
-...
- - 0600_1600x1200.bmp
+- art files:
+  - 0001_1600x1200.bmp
+  - 0002_1600x1200.bmp
+    ...
+  - 0600_1600x1200.bmp
 
-index.json:
+- index.json:
+```
 [
   {
     "index": 1,
@@ -33,4 +34,5 @@ index.json:
     "width": 354,
     "height": 400
   }
+```
 ]
