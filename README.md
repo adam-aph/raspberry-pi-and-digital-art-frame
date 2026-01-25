@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Battery-powered, wall-mounted digital art frame using a large color E-Ink panel.
+This mini project implements a battery-powered, wall-mounted digital art frame using a large color E-Ink panel.
 System wakes once per day, renders one artwork, then powers off completely.
 Display retains image without power.
 
