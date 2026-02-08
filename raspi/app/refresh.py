@@ -6,6 +6,9 @@
 # * | Info        :
 # * | This version:   V1.0
 # * | Author      :   adam_aph
+# * | Date        :   2026-02-08
+# * | Info        :   Added boot time schedule
+# *----------------
 # * | Date        :   2026-01-21
 # * | Info        :   Initial release
 # *----------------
@@ -54,7 +57,11 @@ I2C_BUS = 1
 I2C_MC_ADDRESS = 0x08
 I2C_VOLTAGE_IN_I = 1
 I2C_VOLTAGE_IN_D = 2
+I2C_CURRENT_OUT_I = 5
+I2C_CURRENT_OUT_D = 6
 I2C_LM75B_TEMPERATURE = 50
+I2C_START_SEC, I2C_START_MIN, I2C_START_HOUR, I2C_START_DAY = 27, 28, 29, 30
+I2C_STOP_SEC, I2C_STOP_MIN, I2C_STOP_HOUR, I2C_STOP_DAY = 32, 33, 34, 35
 
 try:
     font_regular = ImageFont.truetype(os.path.join(fontdir, "arial.ttf"), FOOTER_FONT_SIZE)
@@ -66,6 +73,52 @@ except Exception:
     font_regular_small = ImageFont.truetype(os.path.join(fontdir, "Font.ttc"), FOOTER_FONT_SIZE_SMALL)
     font_bold = ImageFont.truetype(os.path.join(fontdir, "Font.ttc"), DATE_FONT_SIZE)
     font_italic = ImageFont.truetype(os.path.join(fontdir, "Font.ttc"), FOOTER_FONT_SIZE)
+
+# BCD Conversion Helper
+def dec_to_bcd(val):
+    return (val // 10 * 16) + (val % 10)
+
+def set_wittypi_daily_boot(time_str="02:00:00"):
+    """
+    Sets Witty Pi 4 to boot daily at HH:MM:SS and clears any auto-shutdowns.
+    """
+
+    # Calculate the 'Next' occurrence date
+    try:
+        now = datetime.now()
+        target_time = datetime.strptime(time_str, "%H:%M:%S").time()
+        target_dt = datetime.combine(now.date(), target_time)
+
+        # If target time for today has already passed, set for tomorrow
+        if target_dt <= now:
+            target_dt += timedelta(days=1)
+
+        # Extract components for the hardware
+        h, m, s, day = target_dt.hour, target_dt.minute, target_dt.second, target_dt.day
+    except Exception as e:
+        print(f"Error parsing time: {e}")
+        return False
+
+    # Hardware Write
+    try:
+        with SMBus(I2C_BUS) as bus:
+            # --- Set Startup Alarm (Alarm 1) ---
+            bus.write_byte_data(I2C_MC_ADDRESS, I2C_START_DAY,  dec_to_bcd(day))
+            bus.write_byte_data(I2C_MC_ADDRESS, I2C_START_HOUR, dec_to_bcd(h))
+            bus.write_byte_data(I2C_MC_ADDRESS, I2C_START_MIN,  dec_to_bcd(m))
+            bus.write_byte_data(I2C_MC_ADDRESS, I2C_START_SEC,  dec_to_bcd(s))
+
+            # --- Clear Shutdown Alarm (Alarm 2) ---
+            bus.write_byte_data(I2C_MC_ADDRESS, I2C_STOP_DAY,  0)
+            bus.write_byte_data(I2C_MC_ADDRESS, I2C_STOP_HOUR, 0)
+            bus.write_byte_data(I2C_MC_ADDRESS, I2C_STOP_MIN,  0)
+            bus.write_byte_data(I2C_MC_ADDRESS, I2C_STOP_SEC,  0)
+
+        print(f"Success: Boot set for {time_str} daily. All shutdown alarms cleared.")
+        return True
+    except Exception as e:
+        print(f"I2C Hardware Error: {e}")
+        return False
 
 def get_input_voltage():
     """
@@ -89,84 +142,136 @@ def get_input_voltage():
         print(f"Error reading from I2C bus: {e}")
         return None
 
+def get_output_current():
+    """
+    Reads the output (discharged) current from the Witty Pi 4.
+    Returns the current in Amperes (A).
+    """
+    try:
+        with SMBus(I2C_BUS) as bus:
+            # Read integer part (Index 5)
+            curr_i = bus.read_byte_data(I2C_MC_ADDRESS, I2C_CURRENT_OUT_I)
+            
+            # Read decimal part (Index 6)
+            curr_d = bus.read_byte_data(I2C_MC_ADDRESS, I2C_CURRENT_OUT_D)
+            
+            # Combine components: Amps = Integer + (Decimal / 100.0)
+            current = curr_i + (curr_d / 100.0)
+            return round(current, 2)
+            
+    except Exception as e:
+        print(f"Error reading current: {e}")
+        return None
+
 def soc_from_voltage(v_pack):
     """
-    Estimate State of Charge (%) for a 4S INR18650 pack.
-
-    Based on typical INR18650 (e.g., Samsung 25R, LG HG2, Sony VTC6)
-    discharge characteristics at ~0.2C rate, 25°C, and Open Circuit Voltage.
-
+    Estimate State of Charge (%) for a 4S INR18650-32M pack.
+    Based on typical INR18650 discharge characteristics.
+    
     Args:
-        v_pack: Pack voltage in volts (measured at rest, OCV)
-
+        v_pack: Pack voltage in volts (OCV - open circuit voltage)
+    
     Returns:
         float: Estimated SOC in percentage (0-100)
-
+    
     Notes:
-        - Voltage must be measured after 30+ min rest for accurate OCV
-        - Temperature significantly affects voltage readings
-        - Cell imbalance can cause errors in pack-level estimation
-        - Aging shifts the curve downward
+        - Requires OCV measurement (no load, 30+ min rest recommended)
+        - Accuracy: ±5-10% typical due to cell variance and aging
+        - Temperature range: 20-30°C for best accuracy
     """
-    # Voltage breakpoints (4S pack) - 5% granularity
-    # Based on typical INR18650 OCV curve (3.6V nominal per cell)
+    
+    # Refined OCV curve for INR18650 (4S configuration)
+    # Based on typical Li-ion NMC chemistry discharge profile
     points = [
-        (16.80, 100),  # 4.20V/cell - fully charged
+        (16.80, 100),  # 4.20V/cell - full charge
         (16.60, 95),   # 4.15V/cell
-        (16.44, 90),   # 4.11V/cell
-        (16.28, 85),   # 4.07V/cell
-        (16.12, 80),   # 4.03V/cell
-        (15.96, 75),   # 3.99V/cell
-        (15.80, 70),   # 3.95V/cell - beginning of plateau
-        (15.64, 65),   # 3.91V/cell
-        (15.48, 60),   # 3.87V/cell
-        (15.32, 55),   # 3.83V/cell
-        (15.16, 50),   # 3.79V/cell - mid-plateau
-        (15.00, 45),   # 3.75V/cell
-        (14.84, 40),   # 3.71V/cell
-        (14.68, 35),   # 3.67V/cell - end of plateau
-        (14.48, 30),   # 3.62V/cell - knee begins
-        (14.24, 25),   # 3.56V/cell
-        (13.96, 20),   # 3.49V/cell - steeper decline
-        (13.64, 15),   # 3.41V/cell
-        (13.28, 10),   # 3.32V/cell
-        (12.80, 5),    # 3.20V/cell - critical low
-        (12.00, 0)     # 3.00V/cell - cutoff (protect cells)
+        (16.40, 90),   # 4.10V/cell
+        (16.24, 85),   # 4.06V/cell
+        (16.08, 80),   # 4.02V/cell
+        (15.92, 75),   # 3.98V/cell
+        (15.80, 70),   # 3.95V/cell - entering plateau
+        (15.68, 65),   # 3.92V/cell
+        (15.60, 60),   # 3.90V/cell
+        (15.52, 55),   # 3.88V/cell
+        (15.48, 50),   # 3.87V/cell - plateau region
+        (15.44, 45),   # 3.86V/cell
+        (15.40, 40),   # 3.85V/cell
+        (15.32, 35),   # 3.83V/cell
+        (15.20, 30),   # 3.80V/cell - plateau ending
+        (15.00, 25),   # 3.75V/cell - knee approaching
+        (14.72, 20),   # 3.68V/cell - knee region
+        (14.40, 15),   # 3.60V/cell
+        (13.96, 10),   # 3.49V/cell - rapid decline
+        (13.40, 5),    # 3.35V/cell
+        (12.80, 2),    # 3.20V/cell - critical
+        (11.00, 0)     # 2.75V/cell - cutoff per spec
     ]
-
+    
     # Clamp to valid range
     if v_pack >= points[0][0]:
-        return 100
+        return 100.0
     if v_pack <= points[-1][0]:
-        return 0
-
+        return 0.0
+    
     # Linear interpolation between breakpoints
     for i in range(len(points) - 1):
         v1, soc1 = points[i]
         v2, soc2 = points[i + 1]
+        
         if v2 <= v_pack <= v1:
-            # Linear interpolation formula
             soc = soc2 + (soc1 - soc2) * (v_pack - v2) / (v1 - v2)
-            return round(soc)
+            return round(soc, 2)
+    
+    return 0.0
 
-    return 0
-
-def soc_from_voltage_compensated(v_pack, temp_c=25.0):
+def soc_with_compensation(v_pack, load_current_a=0.0, temp_c=25.0):
     """
-    Temperature-compensated SOC estimation.
-
+    SOC estimation with IR drop and temperature compensation.
+    
     Args:
-        v_pack: Pack voltage in volts (OCV)
+        v_pack: Measured pack voltage under load (volts)
+        load_current_a: Current draw in amperes (positive = discharge, negative = charge)
         temp_c: Battery temperature in Celsius
-
+    
     Returns:
-        float: Estimated SOC in percentage
+        float: Estimated SOC in percentage (0-100)
+    
+    Notes:
+        - For best accuracy, measure current simultaneously with voltage
+        - Temperature compensation assumes thermal equilibrium
     """
-    # Temperature compensation: ~-3mV/°C per cell for Li-ion
-    temp_offset_per_cell = -0.003 * (temp_c - 25.0)
-    v_compensated = v_pack - (4 * temp_offset_per_cell)
+    
+    # 1. Estimate SoC from raw voltage first (for impedance calculation)
+    soc_rough = soc_from_voltage(v_pack)
+    
+    # 2. SoC-dependent impedance model (per cell)
+    # Impedance increases at low SoC
+    if soc_rough >= 20.0:
+        cell_impedance_ohm = 0.150  # Nominal per spec
+    elif soc_rough >= 10.0:
+        # Linear increase from 150mΩ to 250mΩ
+        cell_impedance_ohm = 0.150 + (20.0 - soc_rough) * 0.01
+    else:
+        # Higher impedance below 10%
+        cell_impedance_ohm = 0.250 + (10.0 - soc_rough) * 0.02
+    
+    # 3. Compensate for IR drop (4 cells in series)
+    # V_ocv = V_measured + (I × R_total) for discharge
+    total_impedance = 4 * cell_impedance_ohm
+    ir_drop = load_current_a * total_impedance
+    v_ocv_estimated = v_pack + ir_drop
+    
+    # 4. Temperature compensation
+    # Li-ion OCV increases ~+0.4mV/°C per cell (positive coefficient)
+    temp_coefficient = 0.0004  # V/°C per cell (positive for Li-ion)
+    temp_offset = 4 * temp_coefficient * (temp_c - 25.0)
+    v_compensated = v_ocv_estimated + temp_offset
+    
+    # 5. Get SOC from compensated voltage
+    soc = soc_from_voltage(v_compensated)
+    
+    return round(soc)
 
-    return soc_from_voltage(v_compensated)
 
 def get_temperature():
     """
@@ -242,8 +347,8 @@ def color_for_index(i: int) -> tuple[int, int, int]:
     return FONT_COLORS[permuted]
 
 def get_day_index() -> int:
-    # Reference date: January 2, 2026 (index 1)
-    reference_date = datetime(2026, 1, 2).date()
+    # Reference date: January 24, 2026 (index 1)
+    reference_date = datetime(2026, 1, 24).date()
 
     current_date = datetime.now().date()
     days_elapsed = (current_date - reference_date).days
@@ -301,11 +406,14 @@ def draw_footer(canvas, number):
     c, f = get_temperature()
     if c is None:
         c = 25.0 # no compensation
+    a = get_output_current()
+    if a is None:
+        a = 0.0  # no compensation
     v = get_input_voltage()
     if v is None:
         battery_pct = "??%"
     else:
-        soc = soc_from_voltage_compensated(v, c)
+        soc = soc_with_compensation(v, a, c)
         battery_pct = f"{soc}%"
 
     title, artist, year = read_artwork_by_index(number)
@@ -376,6 +484,9 @@ def display(number):
         traceback.print_exc()
 
 if __name__ == "__main__":
+
+    set_wittypi_daily_boot("02:00:00")
+
     num = 0
 
     if len(sys.argv) != 2:
