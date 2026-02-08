@@ -104,7 +104,7 @@ The main refresh script performs the following operations:
 
 1. **Wake-up**: Raspberry Pi boots at 2 AM (Witty Pi schedule)
 2. **Schedule Next Wake-up**: Calculates time when it will boot on next day and updates Witty registers
-3. **Image Selection**: Calculates daily index based on days elapsed since January 2, 2026
+3. **Image Selection**: Calculates daily index based on days elapsed since January 24, 2026 (index 1)
 4. **Data Caching**: Pre-loads artwork metadata and bitmap into memory before SPI operations
 5. **Display Rendering**:
    - Loads 1600×1200 BMP artwork (pre-converted to 7-color Spectra 6 palette)
