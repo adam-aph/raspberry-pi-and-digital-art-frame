@@ -86,17 +86,15 @@ Due to GPIO conflicts between Witty Pi 4 and E6 HAT:
 - **Connection Method**: JST connector cables instead of stacking HAT directly
 - **Maintenance Mode**: GPIO26 switch with LED indicator
 
-### Wake-up Scheduler in Witty Pi 4
+### Witty Pi 4 Wake-up Scheduling
 
-Schedule scripts implemented in Witty Pi 4 allow for setup fixed schedules, with well defined on/off intervals. Here it was not very useful due to:
+The default schedule scripts in Witty Pi 4 are designed for fixed schedules with predefined ON/OFF intervals. However, this approach was unsuitable here, because:
 
-- RPi needs to wake up once per day, with no end date specified
-- It needs to boot, refresh the image and shut down. The time when it is active is random, typically below 1 minute, sometimes slightly above 1 minute.
-- Next boot must happen next day at exactly specified hour
+- **Indefinite Duration**: The Raspberry Pi must wake up once daily indefinitely, with no specified end date.
+- **Variable Uptime**: The device boots, refreshes the image, and shuts down. The active duration is inconsistent - usually under a minute, but occasionally slightly longer.
+- **Precision Timing**: The subsequent boot must occur the following day at a defined time. 
 
-This scenario was not possible to be implemented via standard schedule functionality.
-
-- **Solution**: Added scheduling directly to `refresh.py` script.
+Since the standard scheduling functionality could not accommodate these specific constraints, there was implemented a custom scheduling solution directly within the `refresh.py` script.
 
 ## Python Application (`refresh.py`)
 
