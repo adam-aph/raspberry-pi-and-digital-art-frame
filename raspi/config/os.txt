@@ -22,6 +22,3 @@ sudo systemctl daemon-reload
 sudo systemctl enable eink-update.service
 sudo systemctl start eink-update.service
 sudo systemctl status eink-update.service
-
-cp daily_update.wpi $my_dir/schedules/
-
