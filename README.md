@@ -44,7 +44,6 @@ Display retains image without power.
 │   └── config/
 │       ├── cmdline.txt     # Raspberry Pi boot parameters
 │       ├── config.txt      # Raspberry Pi hardware configuration
-│       ├── daily_update.wpi # Witty Pi schedule (2 AM daily wake)
 │       ├── eink-update.service # Systemd service definition
 │       └── os.txt          # Installation commands reference
 │
@@ -76,7 +75,9 @@ Display retains image without power.
 
 <img src="https://github.com/adam-aph/raspberry-pi-and-digital-art-frame/blob/main/media/r3.jpg" width=50% height=50%>
 
-## GPIO Connection Modifications
+## Witty Pi 4 and E6 HAT
+
+### GPIO Connection Modifications
 
 Due to GPIO conflicts between Witty Pi 4 and E6 HAT:
 
@@ -85,6 +86,18 @@ Due to GPIO conflicts between Witty Pi 4 and E6 HAT:
 - **Connection Method**: JST connector cables instead of stacking HAT directly
 - **Maintenance Mode**: GPIO26 switch with LED indicator
 
+### Wake-up Scheduler in Witty Pi 4
+
+Schedule scripts implemented in Witty Pi 4 allow for setup fixed schedules, with well defined on/off intervals. Here it was not very useful due to:
+
+- RPi needs to wake up once per day, with no end date specified
+- It needs to boot, refresh the image and shut down. The time when it is active is random, typically below 1 minute, sometimes slightly above 1 minute.
+- Next boot must happen next day at exactly specified hour
+
+This scenario was not possible to be implemented via standard schedule functionality.
+
+- **Solution**: Added scheduling directly to `refresh.py` script.
+
 ## Python Application (`refresh.py`)
 
 The main refresh script performs the following operations:
@@ -92,22 +105,23 @@ The main refresh script performs the following operations:
 ### Daily Cycle Logic
 
 1. **Wake-up**: Raspberry Pi boots at 2 AM (Witty Pi schedule)
-2. **Image Selection**: Calculates daily index based on days elapsed since January 2, 2026
-3. **Data Caching**: Pre-loads artwork metadata and bitmap into memory before SPI operations
-4. **Display Rendering**:
+2. **Schedule Next Wake-up**: Calculates time when it will boot on next day and updates Witty registers
+3. **Image Selection**: Calculates daily index based on days elapsed since January 2, 2026
+4. **Data Caching**: Pre-loads artwork metadata and bitmap into memory before SPI operations
+5. **Display Rendering**:
    - Loads 1600×1200 BMP artwork (pre-converted to 7-color Spectra 6 palette)
    - Draws vertical date text on right margin (rotated 90°, color-coded by index)
    - Draws vertical footer on left margin with:
       - Artwork metadata (number, artist, title, year)
       - Battery status (SOC% calculated from voltage via I2C)
-5. **E-Ink Refresh**: Full display update via SPI interface
-6. **Shutdown**: Automatic power-off (unless maintenance mode enabled)
+6. **E-Ink Refresh**: Full display update via SPI interface
+7. **Shutdown**: Automatic power-off (unless maintenance mode enabled)
 
 ### Battery Monitoring
 
 - Reads 4S battery pack voltage via Witty Pi I2C interface (address 0x08)
 - Estimates State of Charge using INR18650 discharge curve lookup table
-- Applies temperature compensation (-3mV/°C per cell)
+- Applies temperature compensation (-3mV/°C per cell) and IR drop based on measured load current
 - Displays battery percentage in footer
 
 ### Maintenance Mode
