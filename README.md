@@ -192,6 +192,8 @@ Includes:
 5. Raspberry Pi shuts down
 6. Image remains visible indefinitely
 
+> **_NOTE:_** Estimated runtime: 6 months per charge.
+
 ## License
 
 Apache-2.0 license
