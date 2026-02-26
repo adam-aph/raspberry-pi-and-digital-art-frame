@@ -194,7 +194,7 @@ Includes:
 <br>
 
 >[!NOTE]
->The estimated runtime is 6-month per charge.
+>The estimated runtime is 6 months per charge.
 ><br>Every day, the Raspberry Pi boots up in 40 seconds and runs a refresh job for 50 seconds, staying active for about 90 seconds total.
 
 ## License
