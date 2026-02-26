@@ -191,11 +191,13 @@ Includes:
 4. Display refreshed
 5. Raspberry Pi shuts down
 6. Image remains visible indefinitely
+<br>
 
-> **_NOTE:_** Estimated runtime: 6 months per charge.
+>[!NOTE]
+>The estimated runtime is 6-month per charge.
+><br>Every day, the Raspberry Pi boots up in 40 seconds and runs a refresh job for 50 seconds, staying active for about 90 seconds total.
 
 ## License
 
 Apache-2.0 license
-<br>  
-Artwork copyrights remain with original owners.
+<br>Artwork copyrights remain with original owners.
