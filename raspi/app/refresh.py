@@ -402,13 +402,17 @@ def read_artwork_by_index(index) -> Tuple[str, str, int]:
 def draw_footer(canvas, number):
 # =====================================================
 # FOOTER — draw vertical text on LEFT edge
+# Layout (left -> right): "N. Artist: " | title (truncated with "...") | " (year)"
+# Battery status is right-aligned. Only the title shrinks, so the year stays
+# visible and the left block never overlaps the battery text.
 # =====================================================
+    # --- battery / sensor block ---
     c, f = get_temperature()
     if c is None:
-        c = 25.0 # no compensation
+        c = 25.0  # no compensation
     a = get_output_current()
     if a is None:
-        a = 0.0  # no compensation
+        a = 0.0   # no compensation
     v = get_input_voltage()
     if v is None:
         battery_pct = "??%"
@@ -416,36 +420,74 @@ def draw_footer(canvas, number):
         soc = soc_with_compensation(v, a, c)
         battery_pct = f"{soc}%"
 
+    # --- artwork metadata (WikiArt fields can be null / non-numeric) ---
     title, artist, year = read_artwork_by_index(number)
-    artist_text = f"{number}. {artist}: "
-    title_text = title
-    year_text = f" ({year:04d})"
-    battery_text =  "Battery: " + battery_pct
+    artist = artist or "Unknown"
+    title  = title or ""
+    try:
+        year_text = f" ({int(year):04d})" if year not in (None, "") else ""
+    except (TypeError, ValueError):
+        year_text = f" ({year})"
 
+    artist_text  = f"{number}. {artist}: "
+    battery_text = "Battery: " + battery_pct
+
+    # --- canvas ---
     footer_img = Image.new("RGB", (DISPLAY_H, LEFT_MARGIN), MASK_COLOR)
     fd = ImageDraw.Draw(footer_img)
 
-    bbox = fd.textbbox((0, 0), "Ag", font=font_regular)
-    text_h = bbox[3] - bbox[1]
-    baseline = LEFT_MARGIN - text_h - 10
+    def text_w(s, font):
+        return fd.textlength(s, font=font) if s else 0
 
-    x = 10
+    def truncate(s, font, max_w, tail="..."):
+        if not s or max_w <= 0:
+            return ""
+        if text_w(s, font) <= max_w:
+            return s
+        tw = text_w(tail, font)
+        if tw > max_w:
+            return ""
+        lo, hi = 0, len(s)            # largest prefix whose width + tail fits
+        while lo < hi:
+            mid = (lo + hi + 1) // 2
+            if text_w(s[:mid], font) + tw <= max_w:
+                lo = mid
+            else:
+                hi = mid - 1
+        return (s[:lo].rstrip() + tail) if lo > 0 else ""
+
+    # --- vertical baselines ---
+    bh  = fd.textbbox((0, 0), "Ag", font=font_regular)
+    baseline = LEFT_MARGIN - (bh[3] - bh[1]) - 10
+    bhs = fd.textbbox((0, 0), "Ag", font=font_regular_small)
+    bs  = LEFT_MARGIN - (bhs[3] - bhs[1]) - 10
+
+    # --- horizontal layout ---
+    LEFT_X = 10
+    GAP    = 24                       # min clear space before the battery text
+
+    bw        = text_w(battery_text, font_regular_small)
+    battery_x = DISPLAY_H - bw - 10
+    limit     = battery_x - GAP       # left block must end before here
+
+    aw = text_w(artist_text, font_regular)
+    yw = text_w(year_text,   font_regular)
+    title_budget = limit - LEFT_X - aw - yw
+    title_draw   = truncate(title, font_italic, title_budget)
+
+    # --- draw left block ---
+    x = LEFT_X
     fd.text((x, baseline), artist_text, fill="black", font=font_regular)
-    x += fd.textbbox((0, 0), artist_text, font=font_regular)[2]
-
-    fd.text((x, baseline), title_text, fill="black", font=font_italic)
-    x += fd.textbbox((0, 0), title_text, font=font_italic)[2]
-
+    x += aw
+    if title_draw:
+        fd.text((x, baseline), title_draw, fill="black", font=font_italic)
+        x += text_w(title_draw, font_italic)
     fd.text((x, baseline), year_text, fill="black", font=font_regular)
 
-    # battery right-aligned
-    bboxs = fd.textbbox((0, 0), "Ag", font=font_regular_small)
-    text_hs = bboxs[3] - bboxs[1]
-    bs = LEFT_MARGIN - text_hs - 10
+    # --- draw battery (right-aligned) ---
+    fd.text((battery_x, bs), battery_text, fill="black", font=font_regular_small)
 
-    bw = fd.textbbox((0, 0), battery_text, font=font_regular_small)[2]
-    fd.text((DISPLAY_H - bw - 10, bs), battery_text, fill="black", font=font_regular_small)
-
+    # --- rotate into the physical left edge and paste through a mask ---
     footer_img = footer_img.rotate(-90, expand=True, resample=Image.NEAREST)
 
     arr = np.array(footer_img)
