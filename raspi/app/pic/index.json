@@ -1,0 +1,4802 @@
+[
+  {
+    "index": 1,
+    "title": "Mona Lisa",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1519,
+    "width": 1020,
+    "height": 1500
+  },
+  {
+    "index": 2,
+    "title": "The Starry Night",
+    "artistName": "Vincent van Gogh",
+    "completitionYear": 1889,
+    "width": 2000,
+    "height": 1594
+  },
+  {
+    "index": 3,
+    "title": "The Persistence of Memory",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1931,
+    "width": 2000,
+    "height": 1446
+  },
+  {
+    "index": 4,
+    "title": "In Bed, The Kiss",
+    "artistName": "Henri de Toulouse-Lautrec",
+    "completitionYear": 1892,
+    "width": 1094,
+    "height": 815
+  },
+  {
+    "index": 5,
+    "title": "The Birth of Venus",
+    "artistName": "Sandro Botticelli",
+    "completitionYear": 1485,
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "index": 6,
+    "title": "The Two Fridas",
+    "artistName": "Frida Kahlo",
+    "completitionYear": 1939,
+    "width": 2206,
+    "height": 2186
+  },
+  {
+    "index": 7,
+    "title": "The School of Athens",
+    "artistName": "Raphael",
+    "completitionYear": 1511,
+    "width": 1400,
+    "height": 997
+  },
+  {
+    "index": 8,
+    "title": "The Son of Man",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1964,
+    "width": 1252,
+    "height": 1624
+  },
+  {
+    "index": 9,
+    "title": "Camille Monet and a Child in the Artist’s Garden in Argenteuil",
+    "artistName": "Claude Monet",
+    "completitionYear": 1875,
+    "width": 3060,
+    "height": 2586
+  },
+  {
+    "index": 10,
+    "title": "Self-Portrait",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1907,
+    "width": 804,
+    "height": 1022
+  },
+  {
+    "index": 11,
+    "title": "Composition A",
+    "artistName": "Piet Mondrian",
+    "completitionYear": 1923,
+    "width": 889,
+    "height": 866
+  },
+  {
+    "index": 12,
+    "title": "Ballerina in a Death's Head",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1939,
+    "width": 640,
+    "height": 815
+  },
+  {
+    "index": 13,
+    "title": "The Kiss",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1908,
+    "width": 5000,
+    "height": 5017
+  },
+  {
+    "index": 14,
+    "title": "Philistines",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 2265,
+    "height": 1320
+  },
+  {
+    "index": 15,
+    "title": "Woman in a White Shirt",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1957,
+    "width": 1158,
+    "height": 1333
+  },
+  {
+    "index": 16,
+    "title": "Flowers",
+    "artistName": "Andy Warhol",
+    "completitionYear": 1970,
+    "width": 460,
+    "height": 475
+  },
+  {
+    "index": 17,
+    "title": "Impression, sunrise",
+    "artistName": "Claude Monet",
+    "completitionYear": 1872,
+    "width": 5773,
+    "height": 4478
+  },
+  {
+    "index": 18,
+    "title": "Lady with Fan",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1918,
+    "width": 2048,
+    "height": 2063
+  },
+  {
+    "index": 19,
+    "title": "Study of horses",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1490,
+    "width": 801,
+    "height": 1074
+  },
+  {
+    "index": 20,
+    "title": "Basket of Apples",
+    "artistName": "Paul Cezanne",
+    "completitionYear": 1895,
+    "width": 2536,
+    "height": 2003
+  },
+  {
+    "index": 21,
+    "title": "Portrait of Lydia Delectorskaya",
+    "artistName": "Henri Matisse",
+    "completitionYear": 1947,
+    "width": 573,
+    "height": 755
+  },
+  {
+    "index": 22,
+    "title": "The false mirror",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1928,
+    "width": 1024,
+    "height": 768
+  },
+  {
+    "index": 23,
+    "title": "No.8",
+    "artistName": "Mark Rothko",
+    "completitionYear": 1952,
+    "width": 992,
+    "height": 1200
+  },
+  {
+    "index": 24,
+    "title": "Fruit",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1897,
+    "width": 2617,
+    "height": 4138
+  },
+  {
+    "index": 25,
+    "title": "Eye",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1946,
+    "width": 1412,
+    "height": 1075
+  },
+  {
+    "index": 26,
+    "title": "Job",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 1500,
+    "height": 2005
+  },
+  {
+    "index": 27,
+    "title": "The Wounded Deer",
+    "artistName": "Frida Kahlo",
+    "completitionYear": 1946,
+    "width": 2237,
+    "height": 1737
+  },
+  {
+    "index": 28,
+    "title": "Female Head",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1490,
+    "width": 850,
+    "height": 984
+  },
+  {
+    "index": 29,
+    "title": "The Flight of the dragonfly in Front of the Sun",
+    "artistName": "Joan Miro",
+    "completitionYear": 1968,
+    "width": 1634,
+    "height": 1145
+  },
+  {
+    "index": 30,
+    "title": "The Eye of Silence",
+    "artistName": "Max Ernst",
+    "completitionYear": 1943,
+    "width": 1059,
+    "height": 808
+  },
+  {
+    "index": 31,
+    "title": "The treachery of images (This is not a pipe)",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1929,
+    "width": 1442,
+    "height": 1005
+  },
+  {
+    "index": 32,
+    "title": "The Luncheon on the Grass",
+    "artistName": "Edouard Manet",
+    "completitionYear": 1863,
+    "width": 1900,
+    "height": 1497
+  },
+  {
+    "index": 33,
+    "title": "Woman's Head",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1473,
+    "width": 830,
+    "height": 1145
+  },
+  {
+    "index": 34,
+    "title": "Zodiac",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 654,
+    "height": 900
+  },
+  {
+    "index": 35,
+    "title": "The Garden of Earthly Delights",
+    "artistName": "Hieronymus Bosch",
+    "completitionYear": 1515,
+    "width": 8533,
+    "height": 4325
+  },
+  {
+    "index": 36,
+    "title": "Head of a Young Woman with Tousled Hair (Leda)",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1508,
+    "width": 808,
+    "height": 952
+  },
+  {
+    "index": 37,
+    "title": "House of Parliament Sun",
+    "artistName": "Claude Monet",
+    "completitionYear": 1903,
+    "width": 1736,
+    "height": 1275
+  },
+  {
+    "index": 38,
+    "title": "Evening in the Studio",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1993,
+    "width": 353,
+    "height": 400
+  },
+  {
+    "index": 39,
+    "title": "The Baptism of Christ",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1475,
+    "width": 600,
+    "height": 715
+  },
+  {
+    "index": 40,
+    "title": "Sky Blue",
+    "artistName": "Wassily Kandinsky",
+    "completitionYear": 1940,
+    "width": 575,
+    "height": 774
+  },
+  {
+    "index": 41,
+    "title": "Black Man Attacked by a Jaguar",
+    "artistName": "Henri Rousseau",
+    "completitionYear": 1910,
+    "width": 1024,
+    "height": 768
+  },
+  {
+    "index": 42,
+    "title": "Not to be Reproduced",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1937,
+    "width": 771,
+    "height": 988
+  },
+  {
+    "index": 43,
+    "title": "Skull",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 1827,
+    "height": 2160
+  },
+  {
+    "index": 44,
+    "title": "Drawing Hands",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1948,
+    "width": 1225,
+    "height": 1024
+  },
+  {
+    "index": 45,
+    "title": "Portrait of Adele Bloch-Bauer I",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1907,
+    "width": 1838,
+    "height": 1838
+  },
+  {
+    "index": 46,
+    "title": "Leeches",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1983,
+    "width": 2114,
+    "height": 1592
+  },
+  {
+    "index": 47,
+    "title": "Avond (Evening): The Red Tree",
+    "artistName": "Piet Mondrian",
+    "completitionYear": 1910,
+    "width": 1227,
+    "height": 874
+  },
+  {
+    "index": 48,
+    "title": "Elvis I & II",
+    "artistName": "Andy Warhol",
+    "completitionYear": 1963,
+    "width": 1536,
+    "height": 790
+  },
+  {
+    "index": 49,
+    "title": "Jeanne Hebuterne",
+    "artistName": "Amedeo Modigliani",
+    "completitionYear": 1919,
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "index": 50,
+    "title": "Woman with Long Hair",
+    "artistName": "Man Ray",
+    "completitionYear": 1929,
+    "width": 2500,
+    "height": 3380
+  },
+  {
+    "index": 51,
+    "title": "Composition IV",
+    "artistName": "Wassily Kandinsky",
+    "completitionYear": 1911,
+    "width": 1650,
+    "height": 1044
+  },
+  {
+    "index": 52,
+    "title": "Irony of the Negro Policeman",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 1455,
+    "height": 2187
+  },
+  {
+    "index": 53,
+    "title": "Ophelia",
+    "artistName": "John William Waterhouse",
+    "completitionYear": 1889,
+    "width": 1293,
+    "height": 812
+  },
+  {
+    "index": 54,
+    "title": "The blank signature",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1965,
+    "width": 1772,
+    "height": 2252
+  },
+  {
+    "index": 55,
+    "title": "Bird on Money",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 2237,
+    "height": 1634
+  },
+  {
+    "index": 56,
+    "title": "Flint Castle",
+    "artistName": "J.M.W. Turner",
+    "completitionYear": 1838,
+    "width": 763,
+    "height": 544
+  },
+  {
+    "index": 57,
+    "title": "Café Terrace at Night (Place du Forum, Arles)",
+    "artistName": "Vincent van Gogh",
+    "completitionYear": 1888,
+    "width": 1761,
+    "height": 2235
+  },
+  {
+    "index": 58,
+    "title": "Annunciation",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1472,
+    "width": 1200,
+    "height": 546
+  },
+  {
+    "index": 59,
+    "title": "Modern Rhapsody",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1957,
+    "width": 640,
+    "height": 470
+  },
+  {
+    "index": 60,
+    "title": "Portrait of woman in d`hermine pass (Olga)",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1923,
+    "width": 827,
+    "height": 1000
+  },
+  {
+    "index": 61,
+    "title": "Yellow-Red-Blue",
+    "artistName": "Wassily Kandinsky",
+    "completitionYear": 1925,
+    "width": 824,
+    "height": 516
+  },
+  {
+    "index": 62,
+    "title": "Soap factory of Bagnolet",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1897,
+    "width": 964,
+    "height": 1379
+  },
+  {
+    "index": 63,
+    "title": "Lizard",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1942,
+    "width": 927,
+    "height": 1000
+  },
+  {
+    "index": 64,
+    "title": "The Manneport",
+    "artistName": "Claude Monet",
+    "completitionYear": 1882,
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "index": 65,
+    "title": "Water Lilies",
+    "artistName": "Claude Monet",
+    "completitionYear": 1916,
+    "width": 1600,
+    "height": 1607
+  },
+  {
+    "index": 66,
+    "title": "50 cent Piece",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1983,
+    "width": 2125,
+    "height": 1585
+  },
+  {
+    "index": 67,
+    "title": "The Trappistine",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1897,
+    "width": 1318,
+    "height": 2346
+  },
+  {
+    "index": 68,
+    "title": "Piazza d'Italia",
+    "artistName": "Giorgio de Chirico",
+    "completitionYear": 1913,
+    "width": 781,
+    "height": 547
+  },
+  {
+    "index": 69,
+    "title": "Mosaic II",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1957,
+    "width": 1024,
+    "height": 897
+  },
+  {
+    "index": 70,
+    "title": "Three Dancers in an Exercise Hall",
+    "artistName": "Edgar Degas",
+    "completitionYear": 1880,
+    "width": 2024,
+    "height": 2502
+  },
+  {
+    "index": 71,
+    "title": "The Disintegration of the Persistence of Memory",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1954,
+    "width": 1998,
+    "height": 1552
+  },
+  {
+    "index": 72,
+    "title": "Girl with a White Dog",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1952,
+    "width": 1062,
+    "height": 792
+  },
+  {
+    "index": 73,
+    "title": "The Desperate Man (Self-Portrait)",
+    "artistName": "Gustave Courbet",
+    "completitionYear": 1845,
+    "width": 1500,
+    "height": 1228
+  },
+  {
+    "index": 74,
+    "title": "Dance (II)",
+    "artistName": "Henri Matisse",
+    "completitionYear": 1910,
+    "width": 2348,
+    "height": 1587
+  },
+  {
+    "index": 75,
+    "title": "Emerald",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1900,
+    "width": 365,
+    "height": 900
+  },
+  {
+    "index": 76,
+    "title": "Tiger in a Tropical Storm (Surprised!)",
+    "artistName": "Henri Rousseau",
+    "completitionYear": 1891,
+    "width": 3000,
+    "height": 2397
+  },
+  {
+    "index": 77,
+    "title": "Seated Woman with Bent Knee",
+    "artistName": "Egon Schiele",
+    "completitionYear": 1917,
+    "width": 516,
+    "height": 800
+  },
+  {
+    "index": 78,
+    "title": "Chop Suey",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1929,
+    "width": 1013,
+    "height": 839
+  },
+  {
+    "index": 79,
+    "title": "The Scream",
+    "artistName": "Edvard Munch",
+    "completitionYear": 1893,
+    "width": 1611,
+    "height": 2000
+  },
+  {
+    "index": 80,
+    "title": "Dante and Virgil",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1850,
+    "width": 2803,
+    "height": 3515
+  },
+  {
+    "index": 81,
+    "title": "No.5/No.22",
+    "artistName": "Mark Rothko",
+    "completitionYear": 1950,
+    "width": 1365,
+    "height": 1500
+  },
+  {
+    "index": 82,
+    "title": "Poison Oasis",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 3421,
+    "height": 2295
+  },
+  {
+    "index": 83,
+    "title": "Science and Charity",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1897,
+    "width": 1804,
+    "height": 1411
+  },
+  {
+    "index": 84,
+    "title": "Metamorphosis III",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1968,
+    "width": 1545,
+    "height": 768
+  },
+  {
+    "index": 85,
+    "title": "View At Rouelles Le Havre",
+    "artistName": "Claude Monet",
+    "completitionYear": 1858,
+    "width": 1280,
+    "height": 797
+  },
+  {
+    "index": 86,
+    "title": "Rape",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1934,
+    "width": 575,
+    "height": 768
+  },
+  {
+    "index": 87,
+    "title": "The masterpiece or the mysteries of the horizon",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1955,
+    "width": 1755,
+    "height": 1366
+  },
+  {
+    "index": 88,
+    "title": "Reflection (Self-Portrait)",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1985,
+    "width": 885,
+    "height": 982
+  },
+  {
+    "index": 89,
+    "title": "Decalcomania",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1966,
+    "width": 369,
+    "height": 300
+  },
+  {
+    "index": 90,
+    "title": "Ingres' Violin",
+    "artistName": "Man Ray",
+    "completitionYear": 1924,
+    "width": 882,
+    "height": 1173
+  },
+  {
+    "index": 91,
+    "title": "Fishing",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 672,
+    "height": 781
+  },
+  {
+    "index": 92,
+    "title": "Cycle",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1938,
+    "width": 1280,
+    "height": 2182
+  },
+  {
+    "index": 93,
+    "title": "Crown",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1983,
+    "width": 2125,
+    "height": 1473
+  },
+  {
+    "index": 94,
+    "title": "Mumified Frog",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1946,
+    "width": 2538,
+    "height": 2030
+  },
+  {
+    "index": 95,
+    "title": "Study of hands",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1474,
+    "width": 730,
+    "height": 1042
+  },
+  {
+    "index": 96,
+    "title": "Going West",
+    "artistName": "Jackson Pollock",
+    "completitionYear": 1935,
+    "width": 1056,
+    "height": 758
+  },
+  {
+    "index": 97,
+    "title": "Profit I",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 2133,
+    "height": 1167
+  },
+  {
+    "index": 98,
+    "title": "Ad Parnassum",
+    "artistName": "Paul Klee",
+    "completitionYear": 1932,
+    "width": 1144,
+    "height": 900
+  },
+  {
+    "index": 99,
+    "title": "Birch Forest",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1903,
+    "width": 1012,
+    "height": 1009
+  },
+  {
+    "index": 100,
+    "title": "The Great Masturbator",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1929,
+    "width": 3000,
+    "height": 2190
+  },
+  {
+    "index": 101,
+    "title": "The Great Wave off Kanagawa",
+    "artistName": "Katsushika Hokusai",
+    "completitionYear": 1831,
+    "width": 3859,
+    "height": 2594
+  },
+  {
+    "index": 102,
+    "title": "Netherlandish Proverbs",
+    "artistName": "Pieter Bruegel the Elder",
+    "completitionYear": 1559,
+    "width": 5649,
+    "height": 4000
+  },
+  {
+    "index": 103,
+    "title": "Anatomical studies of the shoulder",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1510,
+    "width": 808,
+    "height": 1149
+  },
+  {
+    "index": 104,
+    "title": "The lovers",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1928,
+    "width": 1858,
+    "height": 1397
+  },
+  {
+    "index": 105,
+    "title": "The Naiad",
+    "artistName": "John William Waterhouse",
+    "completitionYear": 1893,
+    "width": 3584,
+    "height": 1894
+  },
+  {
+    "index": 106,
+    "title": "Reverie",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1897,
+    "width": 2485,
+    "height": 3307
+  },
+  {
+    "index": 107,
+    "title": "What the Water Gave Me",
+    "artistName": "Frida Kahlo",
+    "completitionYear": 1938,
+    "width": 1831,
+    "height": 2391
+  },
+  {
+    "index": 108,
+    "title": "Senecio",
+    "artistName": "Paul Klee",
+    "completitionYear": 1922,
+    "width": 1453,
+    "height": 1592
+  },
+  {
+    "index": 109,
+    "title": "The Castle of the Pyrenees",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1959,
+    "width": 1252,
+    "height": 1894
+  },
+  {
+    "index": 110,
+    "title": "Belvedere",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1958,
+    "width": 1280,
+    "height": 1993
+  },
+  {
+    "index": 111,
+    "title": "Election Day",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1948,
+    "width": 800,
+    "height": 927
+  },
+  {
+    "index": 112,
+    "title": "Liberty Leading the People",
+    "artistName": "Eugene Delacroix",
+    "completitionYear": 1830,
+    "width": 1500,
+    "height": 1198
+  },
+  {
+    "index": 113,
+    "title": "Collective Invention",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1934,
+    "width": 1280,
+    "height": 780
+  },
+  {
+    "index": 114,
+    "title": "Jolly Postman",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1949,
+    "width": 852,
+    "height": 997
+  },
+  {
+    "index": 115,
+    "title": "Poster for Victorien Sardou`s Gismonda starring Sarah Bernhardt at the Théâtre de la Renaissance in Paris",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1894,
+    "width": 728,
+    "height": 1893
+  },
+  {
+    "index": 116,
+    "title": "Drawings of Water Lifting Devices",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1481,
+    "width": 503,
+    "height": 448
+  },
+  {
+    "index": 117,
+    "title": "Glass tears",
+    "artistName": "Man Ray",
+    "completitionYear": 1932,
+    "width": 2056,
+    "height": 1645
+  },
+  {
+    "index": 118,
+    "title": "University of Vienna Ceiling Paintings (Medicine), detail showing Hygieia",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1907,
+    "width": 989,
+    "height": 1432
+  },
+  {
+    "index": 119,
+    "title": "Flower",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1897,
+    "width": 1088,
+    "height": 1772
+  },
+  {
+    "index": 120,
+    "title": "Chandon Cremant Imperial",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1899,
+    "width": 822,
+    "height": 2361
+  },
+  {
+    "index": 121,
+    "title": "Composition",
+    "artistName": "Willem de Kooning",
+    "completitionYear": 1955,
+    "width": 650,
+    "height": 761
+  },
+  {
+    "index": 122,
+    "title": "Branches with Almond Blossom",
+    "artistName": "Vincent van Gogh",
+    "completitionYear": 1890,
+    "width": 1200,
+    "height": 879
+  },
+  {
+    "index": 123,
+    "title": "Nude",
+    "artistName": "Zinaida Serebriakova",
+    "completitionYear": 1929,
+    "width": 1000,
+    "height": 943
+  },
+  {
+    "index": 124,
+    "title": "Birds",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1926,
+    "width": 690,
+    "height": 542
+  },
+  {
+    "index": 125,
+    "title": "The Tree of Life, Stoclet Frieze",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1909,
+    "width": 558,
+    "height": 299
+  },
+  {
+    "index": 126,
+    "title": "Dos Cabezas",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 2325,
+    "height": 2335
+  },
+  {
+    "index": 127,
+    "title": "Boxer",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 2133,
+    "height": 1737
+  },
+  {
+    "index": 128,
+    "title": "Untitled",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1980,
+    "width": 1826,
+    "height": 2163
+  },
+  {
+    "index": 129,
+    "title": "But wait 0til next week",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1920,
+    "width": 900,
+    "height": 1085
+  },
+  {
+    "index": 130,
+    "title": "Lance parfum Rodo",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 959,
+    "height": 1343
+  },
+  {
+    "index": 131,
+    "title": "Golconda",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1953,
+    "width": 1841,
+    "height": 1500
+  },
+  {
+    "index": 132,
+    "title": "The Gray Tree",
+    "artistName": "Piet Mondrian",
+    "completitionYear": 1911,
+    "width": 872,
+    "height": 640
+  },
+  {
+    "index": 133,
+    "title": "The American Way",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1944,
+    "width": 867,
+    "height": 1139
+  },
+  {
+    "index": 134,
+    "title": "Hibiscus and Sparrow",
+    "artistName": "Katsushika Hokusai",
+    "completitionYear": 1830,
+    "width": 800,
+    "height": 538
+  },
+  {
+    "index": 135,
+    "title": "The Eiffel Tower",
+    "artistName": "Georges Seurat",
+    "completitionYear": 1889,
+    "width": 1980,
+    "height": 3131
+  },
+  {
+    "index": 136,
+    "title": "Anatomical studies",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1505,
+    "width": 928,
+    "height": 901
+  },
+  {
+    "index": 137,
+    "title": "Spring",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 965,
+    "height": 1868
+  },
+  {
+    "index": 138,
+    "title": "The Apparition",
+    "artistName": "Gustave Moreau",
+    "completitionYear": 1876,
+    "width": 1252,
+    "height": 1897
+  },
+  {
+    "index": 139,
+    "title": "Musical Instruments",
+    "artistName": "Georges Braque",
+    "completitionYear": 1908,
+    "width": 1024,
+    "height": 826
+  },
+  {
+    "index": 140,
+    "title": "The Seven Deadly Sins and the Four Last Things (tabletop)",
+    "artistName": "Hieronymus Bosch",
+    "completitionYear": 1485,
+    "width": 2863,
+    "height": 2441
+  },
+  {
+    "index": 141,
+    "title": "Dandelions",
+    "artistName": "Claude Monet",
+    "completitionYear": 1900,
+    "width": 587,
+    "height": 788
+  },
+  {
+    "index": 142,
+    "title": "Women forming a skull",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1951,
+    "width": 465,
+    "height": 600
+  },
+  {
+    "index": 143,
+    "title": "Glenn",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1985,
+    "width": 1565,
+    "height": 1350
+  },
+  {
+    "index": 144,
+    "title": "A Bar at the Folies-Bergere",
+    "artistName": "Edouard Manet",
+    "completitionYear": 1882,
+    "width": 2000,
+    "height": 1493
+  },
+  {
+    "index": 145,
+    "title": "The Little Owl",
+    "artistName": "Albrecht Durer",
+    "completitionYear": 1506,
+    "width": 1024,
+    "height": 1426
+  },
+  {
+    "index": 146,
+    "title": "The Fight between Carnival and Lent",
+    "artistName": "Pieter Bruegel the Elder",
+    "completitionYear": 1559,
+    "width": 3000,
+    "height": 2145
+  },
+  {
+    "index": 147,
+    "title": "Composition with Red,  Blue and Yellow",
+    "artistName": "Piet Mondrian",
+    "completitionYear": 1930,
+    "width": 1012,
+    "height": 1022
+  },
+  {
+    "index": 148,
+    "title": "Child with dove",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1901,
+    "width": 1419,
+    "height": 1970
+  },
+  {
+    "index": 149,
+    "title": "The Girl with a Pearl Earring",
+    "artistName": "Johannes Vermeer",
+    "completitionYear": 1665,
+    "width": 759,
+    "height": 900
+  },
+  {
+    "index": 150,
+    "title": "Fishermen at Sea",
+    "artistName": "J.M.W. Turner",
+    "completitionYear": 1796,
+    "width": 1274,
+    "height": 960
+  },
+  {
+    "index": 151,
+    "title": "Women in the garden",
+    "artistName": "Claude Monet",
+    "completitionYear": 1866,
+    "width": 681,
+    "height": 850
+  },
+  {
+    "index": 152,
+    "title": "Mouth of Flower",
+    "artistName": "Octavio Ocampo",
+    "completitionYear": 1970,
+    "width": 389,
+    "height": 550
+  },
+  {
+    "index": 153,
+    "title": "Number 5",
+    "artistName": "Jackson Pollock",
+    "completitionYear": 1948,
+    "width": 1347,
+    "height": 2196
+  },
+  {
+    "index": 154,
+    "title": "Rhythm",
+    "artistName": "Robert Delaunay",
+    "completitionYear": 1912,
+    "width": 1600,
+    "height": 1569
+  },
+  {
+    "index": 155,
+    "title": "Mystery and Melancholy of a Street",
+    "artistName": "Giorgio de Chirico",
+    "completitionYear": 1914,
+    "width": 755,
+    "height": 927
+  },
+  {
+    "index": 156,
+    "title": "Symmetry Watercolor 106 Bird",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1959,
+    "width": 775,
+    "height": 768
+  },
+  {
+    "index": 157,
+    "title": "The Pink Dancers, Before the Ballet",
+    "artistName": "Edgar Degas",
+    "completitionYear": 1884,
+    "width": 2024,
+    "height": 1703
+  },
+  {
+    "index": 158,
+    "title": "Rooms By The Sea",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1951,
+    "width": 1000,
+    "height": 734
+  },
+  {
+    "index": 159,
+    "title": "Untitled",
+    "artistName": "Cy Twombly",
+    "completitionYear": 1961,
+    "width": 1100,
+    "height": 909
+  },
+  {
+    "index": 160,
+    "title": "Hunters in the Snow",
+    "artistName": "Pieter Bruegel the Elder",
+    "completitionYear": 1565,
+    "width": 3000,
+    "height": 2151
+  },
+  {
+    "index": 161,
+    "title": "Monaco Monte Carlo",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1897,
+    "width": 610,
+    "height": 900
+  },
+  {
+    "index": 162,
+    "title": "Valium",
+    "artistName": "Damien Hirst",
+    "completitionYear": 2000,
+    "width": 480,
+    "height": 480
+  },
+  {
+    "index": 163,
+    "title": "Saturn Devouring One of His Sons",
+    "artistName": "Francisco Goya",
+    "completitionYear": 1823,
+    "width": 1616,
+    "height": 2889
+  },
+  {
+    "index": 164,
+    "title": "Sheridan Theatre",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1937,
+    "width": 1000,
+    "height": 675
+  },
+  {
+    "index": 165,
+    "title": "The Poetess",
+    "artistName": "Joan Miro",
+    "completitionYear": 1940,
+    "width": 700,
+    "height": 575
+  },
+  {
+    "index": 166,
+    "title": "Boy and dog in a Johnnypump",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 2358,
+    "height": 1329
+  },
+  {
+    "index": 167,
+    "title": "Hobo and Dog",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1924,
+    "width": 852,
+    "height": 961
+  },
+  {
+    "index": 168,
+    "title": "Madonna and Child",
+    "artistName": "Raphael",
+    "completitionYear": 1503,
+    "width": 850,
+    "height": 1207
+  },
+  {
+    "index": 169,
+    "title": "Ruby",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1899,
+    "width": 311,
+    "height": 782
+  },
+  {
+    "index": 170,
+    "title": "The Inferno, Canto 21",
+    "artistName": "Gustave Dore",
+    "completitionYear": 1861,
+    "width": 2264,
+    "height": 1817
+  },
+  {
+    "index": 171,
+    "title": "Personal values",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1952,
+    "width": 1000,
+    "height": 791
+  },
+  {
+    "index": 172,
+    "title": "Three Women",
+    "artistName": "Fernand Leger",
+    "completitionYear": 1921,
+    "width": 1085,
+    "height": 799
+  },
+  {
+    "index": 173,
+    "title": "The Portuguese (The Emigrant)",
+    "artistName": "Georges Braque",
+    "completitionYear": 1911,
+    "width": 824,
+    "height": 1206
+  },
+  {
+    "index": 174,
+    "title": "The Return of the Prodigal Son",
+    "artistName": "Rembrandt",
+    "completitionYear": 1669,
+    "width": 1024,
+    "height": 1261
+  },
+  {
+    "index": 175,
+    "title": "Mont Sainte-Victoire",
+    "artistName": "Paul Cezanne",
+    "completitionYear": 1895,
+    "width": 1280,
+    "height": 1012
+  },
+  {
+    "index": 176,
+    "title": "The problem we all live with",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1964,
+    "width": 1218,
+    "height": 783
+  },
+  {
+    "index": 177,
+    "title": "Anatomy of the Neck",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1515,
+    "width": 783,
+    "height": 1161
+  },
+  {
+    "index": 178,
+    "title": "Dream of a Sunday Afternoon in Alameda Park",
+    "artistName": "Diego Rivera",
+    "completitionYear": 1948,
+    "width": 800,
+    "height": 314
+  },
+  {
+    "index": 179,
+    "title": "The Listening Room",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1952,
+    "width": 1690,
+    "height": 1400
+  },
+  {
+    "index": 180,
+    "title": "Untitled",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1980,
+    "width": 2402,
+    "height": 1474
+  },
+  {
+    "index": 181,
+    "title": "The Triumph of Galatea",
+    "artistName": "Raphael",
+    "completitionYear": 1512,
+    "width": 1278,
+    "height": 1706
+  },
+  {
+    "index": 182,
+    "title": "Magic Mirror",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1946,
+    "width": 1173,
+    "height": 700
+  },
+  {
+    "index": 183,
+    "title": "Olympia",
+    "artistName": "Edouard Manet",
+    "completitionYear": 1863,
+    "width": 1079,
+    "height": 738
+  },
+  {
+    "index": 184,
+    "title": "Self-Portrait with a Beret",
+    "artistName": "Claude Monet",
+    "completitionYear": 1886,
+    "width": 899,
+    "height": 1081
+  },
+  {
+    "index": 185,
+    "title": "The picador",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1890,
+    "width": 1315,
+    "height": 1716
+  },
+  {
+    "index": 186,
+    "title": "Head",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 2518,
+    "height": 3406
+  },
+  {
+    "index": 187,
+    "title": "Sarah Bernhardt",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 435,
+    "height": 650
+  },
+  {
+    "index": 188,
+    "title": "Woman with a Hat",
+    "artistName": "Henri Matisse",
+    "completitionYear": 1905,
+    "width": 1381,
+    "height": 1870
+  },
+  {
+    "index": 189,
+    "title": "First Communion",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1896,
+    "width": 736,
+    "height": 1070
+  },
+  {
+    "index": 190,
+    "title": "Nude Maja",
+    "artistName": "Francisco Goya",
+    "completitionYear": 1800,
+    "width": 900,
+    "height": 456
+  },
+  {
+    "index": 191,
+    "title": "Self-Portrait",
+    "artistName": "Andy Warhol",
+    "completitionYear": 1986,
+    "width": 426,
+    "height": 453
+  },
+  {
+    "index": 192,
+    "title": "Hauling a Boat Ashore, Honfleur",
+    "artistName": "Claude Monet",
+    "completitionYear": 1864,
+    "width": 1280,
+    "height": 835
+  },
+  {
+    "index": 193,
+    "title": "Retribution",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1920,
+    "width": 840,
+    "height": 937
+  },
+  {
+    "index": 194,
+    "title": "Feet of an apostle",
+    "artistName": "Albrecht Durer",
+    "completitionYear": 1508,
+    "width": 3000,
+    "height": 2427
+  },
+  {
+    "index": 195,
+    "title": "Ocean waves",
+    "artistName": "Katsushika Hokusai",
+    "completitionYear": 1830,
+    "width": 3327,
+    "height": 2345
+  },
+  {
+    "index": 196,
+    "title": "Box of Apples in Wales",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1939,
+    "width": 589,
+    "height": 480
+  },
+  {
+    "index": 197,
+    "title": "Blue and gray",
+    "artistName": "Mark Rothko",
+    "completitionYear": 1962,
+    "width": 1156,
+    "height": 1280
+  },
+  {
+    "index": 198,
+    "title": "Man with a Feather",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1943,
+    "width": 423,
+    "height": 634
+  },
+  {
+    "index": 199,
+    "title": "Portrait of Norman Rockwell Painting the Soda Jerk",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1953,
+    "width": 852,
+    "height": 600
+  },
+  {
+    "index": 200,
+    "title": "The Japanese Bridge (The Bridge in Monet's Garden)",
+    "artistName": "Claude Monet",
+    "completitionYear": 1896,
+    "width": 1092,
+    "height": 1056
+  },
+  {
+    "index": 201,
+    "title": "Amants",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1895,
+    "width": 650,
+    "height": 496
+  },
+  {
+    "index": 202,
+    "title": "Meditative Rose",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1958,
+    "width": 640,
+    "height": 822
+  },
+  {
+    "index": 203,
+    "title": "Study for a Fashion plate",
+    "artistName": "Richard Hamilton",
+    "completitionYear": 1969,
+    "width": 580,
+    "height": 799
+  },
+  {
+    "index": 204,
+    "title": "Portrait of Simonetta Vespucci (Portrait of a Young Woman)",
+    "artistName": "Sandro Botticelli",
+    "completitionYear": 1480,
+    "width": 1831,
+    "height": 2440
+  },
+  {
+    "index": 205,
+    "title": "Exu",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1988,
+    "width": 3533,
+    "height": 2850
+  },
+  {
+    "index": 206,
+    "title": "The Long Leg",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1930,
+    "width": 1000,
+    "height": 678
+  },
+  {
+    "index": 207,
+    "title": "God, Law",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 1176,
+    "height": 1521
+  },
+  {
+    "index": 208,
+    "title": "The Green Dancer",
+    "artistName": "Edgar Degas",
+    "completitionYear": 1879,
+    "width": 1746,
+    "height": 3144
+  },
+  {
+    "index": 209,
+    "title": "Conference At Night",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1949,
+    "width": 1000,
+    "height": 700
+  },
+  {
+    "index": 210,
+    "title": "Leda and the Swan",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1510,
+    "width": 805,
+    "height": 1055
+  },
+  {
+    "index": 211,
+    "title": "Plaster male torso",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1893,
+    "width": 1180,
+    "height": 1867
+  },
+  {
+    "index": 212,
+    "title": "Amethyst",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1900,
+    "width": 884,
+    "height": 2052
+  },
+  {
+    "index": 213,
+    "title": "Spirit Of Spring",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1894,
+    "width": 612,
+    "height": 1000
+  },
+  {
+    "index": 214,
+    "title": "The Red Dragon and the Woman Clothed with the Sun",
+    "artistName": "William Blake",
+    "completitionYear": 1805,
+    "width": 2137,
+    "height": 2761
+  },
+  {
+    "index": 215,
+    "title": "The Angelus",
+    "artistName": "Jean-Francois Millet",
+    "completitionYear": 1859,
+    "width": 4999,
+    "height": 4157
+  },
+  {
+    "index": 216,
+    "title": "The human condition",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1935,
+    "width": 1772,
+    "height": 2398
+  },
+  {
+    "index": 217,
+    "title": "Still life with Apples",
+    "artistName": "Paul Cezanne",
+    "completitionYear": 1890,
+    "width": 1162,
+    "height": 872
+  },
+  {
+    "index": 218,
+    "title": "Boy and Girl gazing at the Moon",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1926,
+    "width": 855,
+    "height": 1032
+  },
+  {
+    "index": 219,
+    "title": "Allegory of Sculpture",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1889,
+    "width": 1136,
+    "height": 1648
+  },
+  {
+    "index": 220,
+    "title": "Nighthawks",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1942,
+    "width": 6000,
+    "height": 3274
+  },
+  {
+    "index": 221,
+    "title": "Sistine Chapel Ceiling: Creation of Adam",
+    "artistName": "Michelangelo",
+    "completitionYear": 1510,
+    "width": 3524,
+    "height": 1599
+  },
+  {
+    "index": 222,
+    "title": "A Childhood Idyll",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1900,
+    "width": 2503,
+    "height": 1966
+  },
+  {
+    "index": 223,
+    "title": "Slavia",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 407,
+    "height": 650
+  },
+  {
+    "index": 224,
+    "title": "Sunlight in a Cafeteria",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1958,
+    "width": 2031,
+    "height": 1396
+  },
+  {
+    "index": 225,
+    "title": "The lost jockey",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1948,
+    "width": 728,
+    "height": 575
+  },
+  {
+    "index": 226,
+    "title": "The Lady of the Camellias",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 2219,
+    "height": 6215
+  },
+  {
+    "index": 227,
+    "title": "The Bather",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1879,
+    "width": 800,
+    "height": 1082
+  },
+  {
+    "index": 228,
+    "title": "Moet and Chandon White Star",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1899,
+    "width": 634,
+    "height": 1681
+  },
+  {
+    "index": 229,
+    "title": "Nymphs and Satyr",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1873,
+    "width": 1488,
+    "height": 2125
+  },
+  {
+    "index": 230,
+    "title": "Circle Limit I",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1958,
+    "width": 1280,
+    "height": 1253
+  },
+  {
+    "index": 231,
+    "title": "Spring Breeze",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1895,
+    "width": 2637,
+    "height": 4000
+  },
+  {
+    "index": 232,
+    "title": "Lily",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1475,
+    "width": 620,
+    "height": 954
+  },
+  {
+    "index": 233,
+    "title": "Two Standing Women",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1902,
+    "width": 470,
+    "height": 700
+  },
+  {
+    "index": 234,
+    "title": "Flying machine",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1487,
+    "width": 804,
+    "height": 1125
+  },
+  {
+    "index": 235,
+    "title": "The Green Line",
+    "artistName": "Henri Matisse",
+    "completitionYear": 1905,
+    "width": 576,
+    "height": 721
+  },
+  {
+    "index": 236,
+    "title": "The Last Supper",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1495,
+    "width": 5193,
+    "height": 2926
+  },
+  {
+    "index": 237,
+    "title": "The Nostalgia of the Infinite",
+    "artistName": "Giorgio de Chirico",
+    "completitionYear": 1913,
+    "width": 613,
+    "height": 1375
+  },
+  {
+    "index": 238,
+    "title": "Print Gallery",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1956,
+    "width": 1280,
+    "height": 1286
+  },
+  {
+    "index": 239,
+    "title": "At the Moulin Rouge, The Dance",
+    "artistName": "Henri de Toulouse-Lautrec",
+    "completitionYear": 1890,
+    "width": 2536,
+    "height": 1950
+  },
+  {
+    "index": 240,
+    "title": "Woman and Horses",
+    "artistName": "Octavio Ocampo",
+    "completitionYear": 1985,
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "index": 241,
+    "title": "Gare Montparnasse (The Melancholy of Departure)",
+    "artistName": "Giorgio de Chirico",
+    "completitionYear": 1914,
+    "width": 1070,
+    "height": 797
+  },
+  {
+    "index": 242,
+    "title": "Woman with Eyes Closed",
+    "artistName": "Lucian Freud",
+    "completitionYear": 2002,
+    "width": 724,
+    "height": 1033
+  },
+  {
+    "index": 243,
+    "title": "Madame Matisse, The Red Madras Headdress",
+    "artistName": "Henri Matisse",
+    "completitionYear": 1907,
+    "width": 700,
+    "height": 856
+  },
+  {
+    "index": 244,
+    "title": "Biscuits Lefevre Utile",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 1186,
+    "height": 1640
+  },
+  {
+    "index": 245,
+    "title": "Scythed Chariot",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1483,
+    "width": 1060,
+    "height": 770
+  },
+  {
+    "index": 246,
+    "title": "Paradise Lost",
+    "artistName": "Gustave Dore",
+    "completitionYear": 1866,
+    "width": 966,
+    "height": 1210
+  },
+  {
+    "index": 247,
+    "title": "Young Girl Seated",
+    "artistName": "Amedeo Modigliani",
+    "completitionYear": 1918,
+    "width": 779,
+    "height": 1054
+  },
+  {
+    "index": 248,
+    "title": "The Crow",
+    "artistName": "Damien Hirst",
+    "completitionYear": 2009,
+    "width": 1024,
+    "height": 768
+  },
+  {
+    "index": 249,
+    "title": "Kajikazawa in Kai Province",
+    "artistName": "Katsushika Hokusai",
+    "completitionYear": 1830,
+    "width": 4486,
+    "height": 2948
+  },
+  {
+    "index": 250,
+    "title": "Nestlé`s Food for Infants",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1897,
+    "width": 801,
+    "height": 1708
+  },
+  {
+    "index": 251,
+    "title": "Dance Opera",
+    "artistName": "Edgar Degas",
+    "completitionYear": 1872,
+    "width": 636,
+    "height": 415
+  },
+  {
+    "index": 252,
+    "title": "Don Quixote and Sancho Setting Out",
+    "artistName": "Gustave Dore",
+    "completitionYear": 1863,
+    "width": 940,
+    "height": 1210
+  },
+  {
+    "index": 253,
+    "title": "Adolphe Monet Reading in the Garden",
+    "artistName": "Claude Monet",
+    "completitionYear": 1866,
+    "width": 2500,
+    "height": 1997
+  },
+  {
+    "index": 254,
+    "title": "Solarisation",
+    "artistName": "Man Ray",
+    "completitionYear": 1931,
+    "width": 1600,
+    "height": 1238
+  },
+  {
+    "index": 255,
+    "title": "Butterflies",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1950,
+    "width": 1281,
+    "height": 1386
+  },
+  {
+    "index": 256,
+    "title": "The River Thames with St. Paul's Cathedral on Lord Mayor's Day",
+    "artistName": "Canaletto",
+    "completitionYear": 1746,
+    "width": 1296,
+    "height": 676
+  },
+  {
+    "index": 257,
+    "title": "Just what is it that makes today's homes so different, so appealing?",
+    "artistName": "Richard Hamilton",
+    "completitionYear": 1956,
+    "width": 1211,
+    "height": 1260
+  },
+  {
+    "index": 258,
+    "title": "Cape Cod Morning",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1950,
+    "width": 1000,
+    "height": 857
+  },
+  {
+    "index": 259,
+    "title": "The Triumph of Death",
+    "artistName": "Pieter Bruegel the Elder",
+    "completitionYear": 1563,
+    "width": 2510,
+    "height": 1757
+  },
+  {
+    "index": 260,
+    "title": "Landscape drawing for Santa Maria della Neve",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1473,
+    "width": 941,
+    "height": 650
+  },
+  {
+    "index": 261,
+    "title": "They Remembered Me",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1917,
+    "width": 934,
+    "height": 1006
+  },
+  {
+    "index": 262,
+    "title": "Chocolat Masson",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1897,
+    "width": 1189,
+    "height": 1674
+  },
+  {
+    "index": 263,
+    "title": "Liberty",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1983,
+    "width": 2127,
+    "height": 1621
+  },
+  {
+    "index": 264,
+    "title": "Dancer",
+    "artistName": "Joan Miro",
+    "completitionYear": 1925,
+    "width": 579,
+    "height": 767
+  },
+  {
+    "index": 265,
+    "title": "The Concert in the Egg",
+    "artistName": "Hieronymus Bosch",
+    "completitionYear": 1480,
+    "width": 2908,
+    "height": 2452
+  },
+  {
+    "index": 266,
+    "title": "Heidsieck",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1901,
+    "width": 1174,
+    "height": 1593
+  },
+  {
+    "index": 267,
+    "title": "Music in the Tuileries Garden",
+    "artistName": "Edouard Manet",
+    "completitionYear": 1862,
+    "width": 1249,
+    "height": 783
+  },
+  {
+    "index": 268,
+    "title": "Study for the Last Supper",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1494,
+    "width": 1153,
+    "height": 770
+  },
+  {
+    "index": 269,
+    "title": "Manga",
+    "artistName": "Katsushika Hokusai",
+    "completitionYear": 1878,
+    "width": 487,
+    "height": 650
+  },
+  {
+    "index": 270,
+    "title": "Danae",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1908,
+    "width": 2024,
+    "height": 1960
+  },
+  {
+    "index": 271,
+    "title": "Self-Portrait, Reflection",
+    "artistName": "Lucian Freud",
+    "completitionYear": 2004,
+    "width": 794,
+    "height": 1125
+  },
+  {
+    "index": 272,
+    "title": "The Train in the Country",
+    "artistName": "Claude Monet",
+    "completitionYear": 1871,
+    "width": 1597,
+    "height": 1200
+  },
+  {
+    "index": 273,
+    "title": "Cabeza",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 1024,
+    "height": 1134
+  },
+  {
+    "index": 274,
+    "title": "Irises",
+    "artistName": "Vincent van Gogh",
+    "completitionYear": 1889,
+    "width": 5000,
+    "height": 3926
+  },
+  {
+    "index": 275,
+    "title": "Lorenzaccio",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 706,
+    "height": 1978
+  },
+  {
+    "index": 276,
+    "title": "The Japanese Bridge (The Water-Lily Pond)",
+    "artistName": "Claude Monet",
+    "completitionYear": 1899,
+    "width": 1055,
+    "height": 1024
+  },
+  {
+    "index": 277,
+    "title": "Self-portrait with bandaged ear",
+    "artistName": "Vincent van Gogh",
+    "completitionYear": 1889,
+    "width": 2147,
+    "height": 2428
+  },
+  {
+    "index": 278,
+    "title": "Summer Evening",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1947,
+    "width": 1074,
+    "height": 761
+  },
+  {
+    "index": 279,
+    "title": "The evening gown",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1954,
+    "width": 585,
+    "height": 800
+  },
+  {
+    "index": 280,
+    "title": "Blue Morning Glories",
+    "artistName": "Georgia O'Keeffe",
+    "completitionYear": 1935,
+    "width": 1024,
+    "height": 1229
+  },
+  {
+    "index": 281,
+    "title": "The Abyss of Hell",
+    "artistName": "Sandro Botticelli",
+    "completitionYear": 1480,
+    "width": 1044,
+    "height": 700
+  },
+  {
+    "index": 282,
+    "title": "The Smile of the Flamboyant Wings",
+    "artistName": "Joan Miro",
+    "completitionYear": 1953,
+    "width": 1414,
+    "height": 1064
+  },
+  {
+    "index": 283,
+    "title": "Academical study",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1895,
+    "width": 1479,
+    "height": 2025
+  },
+  {
+    "index": 284,
+    "title": "In the Style of Kairouan",
+    "artistName": "Paul Klee",
+    "completitionYear": 1914,
+    "width": 1600,
+    "height": 1083
+  },
+  {
+    "index": 285,
+    "title": "Biscuits Champagne Lefèvre Utile",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 1140,
+    "height": 1667
+  },
+  {
+    "index": 286,
+    "title": "Cropped print of four panels each depicting one of the four seasons personified by a woman",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1897,
+    "width": 3572,
+    "height": 1934
+  },
+  {
+    "index": 287,
+    "title": "Full moon",
+    "artistName": "Paul Klee",
+    "completitionYear": 1919,
+    "width": 795,
+    "height": 1038
+  },
+  {
+    "index": 288,
+    "title": "King Alphonso",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1983,
+    "width": 2098,
+    "height": 1581
+  },
+  {
+    "index": 289,
+    "title": "Bird Fish",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1938,
+    "width": 1000,
+    "height": 976
+  },
+  {
+    "index": 290,
+    "title": "History of the Black People",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1983,
+    "width": 750,
+    "height": 418
+  },
+  {
+    "index": 291,
+    "title": "Landscape with Birds",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1940,
+    "width": 480,
+    "height": 581
+  },
+  {
+    "index": 292,
+    "title": "Unexpected answer",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1933,
+    "width": 963,
+    "height": 1545
+  },
+  {
+    "index": 293,
+    "title": "Anthropometries of the Blue Period",
+    "artistName": "Yves Klein",
+    "completitionYear": 1962,
+    "width": 1600,
+    "height": 768
+  },
+  {
+    "index": 294,
+    "title": "The Beethoven Frieze: The Hostile Powers. Far Wall",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1902,
+    "width": 4920,
+    "height": 1680
+  },
+  {
+    "index": 295,
+    "title": "Two Ballet Dancers",
+    "artistName": "Edgar Degas",
+    "completitionYear": 1879,
+    "width": 1056,
+    "height": 741
+  },
+  {
+    "index": 296,
+    "title": "Broadway Boogie Woogie",
+    "artistName": "Piet Mondrian",
+    "completitionYear": 1943,
+    "width": 888,
+    "height": 901
+  },
+  {
+    "index": 297,
+    "title": "Blue rider",
+    "artistName": "Wassily Kandinsky",
+    "completitionYear": 1903,
+    "width": 664,
+    "height": 623
+  },
+  {
+    "index": 298,
+    "title": "The Pine Tree at St. Tropez",
+    "artistName": "Paul Signac",
+    "completitionYear": 1909,
+    "width": 707,
+    "height": 564
+  },
+  {
+    "index": 299,
+    "title": "Fruit Dish",
+    "artistName": "Georges Braque",
+    "completitionYear": 1913,
+    "width": 797,
+    "height": 1087
+  },
+  {
+    "index": 300,
+    "title": "The hard lesson",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1884,
+    "width": 509,
+    "height": 768
+  },
+  {
+    "index": 301,
+    "title": "Per Capita",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 4351,
+    "height": 2344
+  },
+  {
+    "index": 302,
+    "title": "Self Portrait with Hands on Chest",
+    "artistName": "Egon Schiele",
+    "completitionYear": 1910,
+    "width": 673,
+    "height": 960
+  },
+  {
+    "index": 303,
+    "title": "Salammbô",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 905,
+    "height": 1559
+  },
+  {
+    "index": 304,
+    "title": "Goldfish",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1902,
+    "width": 1244,
+    "height": 3400
+  },
+  {
+    "index": 305,
+    "title": "Woman with Flower Head",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1937,
+    "width": 700,
+    "height": 538
+  },
+  {
+    "index": 306,
+    "title": "Pregnant Girl",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1961,
+    "width": 308,
+    "height": 400
+  },
+  {
+    "index": 307,
+    "title": "Still Life with Books and Candle",
+    "artistName": "Henri Matisse",
+    "completitionYear": 1890,
+    "width": 1474,
+    "height": 1231
+  },
+  {
+    "index": 308,
+    "title": "The Red Tower",
+    "artistName": "Giorgio de Chirico",
+    "completitionYear": 1913,
+    "width": 800,
+    "height": 575
+  },
+  {
+    "index": 309,
+    "title": "Eiffel Tower",
+    "artistName": "Robert Delaunay",
+    "completitionYear": 1914,
+    "width": 1000,
+    "height": 1256
+  },
+  {
+    "index": 310,
+    "title": "Gas",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1940,
+    "width": 2031,
+    "height": 1396
+  },
+  {
+    "index": 311,
+    "title": "Woman with yellow hat (Jacqueline)",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1961,
+    "width": 316,
+    "height": 394
+  },
+  {
+    "index": 312,
+    "title": "Austria",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1899,
+    "width": 1136,
+    "height": 1676
+  },
+  {
+    "index": 313,
+    "title": "Madonna with a Flower (Madonna Benois)",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1478,
+    "width": 466,
+    "height": 700
+  },
+  {
+    "index": 314,
+    "title": "Ground Swell",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1939,
+    "width": 2962,
+    "height": 2192
+  },
+  {
+    "index": 315,
+    "title": "Little boy writing a letter",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1920,
+    "width": 876,
+    "height": 973
+  },
+  {
+    "index": 316,
+    "title": "Day and Night",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1938,
+    "width": 1202,
+    "height": 730
+  },
+  {
+    "index": 317,
+    "title": "One and Three Chairs",
+    "artistName": "Joseph Kosuth",
+    "completitionYear": 1965,
+    "width": 1650,
+    "height": 1170
+  },
+  {
+    "index": 318,
+    "title": "Woman Grinding Maize",
+    "artistName": "Diego Rivera",
+    "completitionYear": 1924,
+    "width": 1165,
+    "height": 901
+  },
+  {
+    "index": 319,
+    "title": "A Young Painter",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1958,
+    "width": 738,
+    "height": 800
+  },
+  {
+    "index": 320,
+    "title": "Ashes",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 579,
+    "height": 869
+  },
+  {
+    "index": 321,
+    "title": "Charles the First",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 2392,
+    "height": 2932
+  },
+  {
+    "index": 322,
+    "title": "David Hockney",
+    "artistName": "Lucian Freud",
+    "completitionYear": 2002,
+    "width": 353,
+    "height": 468
+  },
+  {
+    "index": 323,
+    "title": "Self-Portrait",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1940,
+    "width": 434,
+    "height": 640
+  },
+  {
+    "index": 324,
+    "title": "Etretat, Cliff of d`Aval, Sunset",
+    "artistName": "Claude Monet",
+    "completitionYear": 1885,
+    "width": 1401,
+    "height": 1200
+  },
+  {
+    "index": 325,
+    "title": "By the Sea",
+    "artistName": "Claude Monet",
+    "completitionYear": 1864,
+    "width": 1973,
+    "height": 1285
+  },
+  {
+    "index": 326,
+    "title": "Kiss of the Sea",
+    "artistName": "Octavio Ocampo",
+    "completitionYear": 1985,
+    "width": 450,
+    "height": 331
+  },
+  {
+    "index": 327,
+    "title": "Homecoming Marine",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1945,
+    "width": 861,
+    "height": 950
+  },
+  {
+    "index": 328,
+    "title": "Color Study: Squares with Concentric Circles",
+    "artistName": "Wassily Kandinsky",
+    "completitionYear": 1913,
+    "width": 640,
+    "height": 479
+  },
+  {
+    "index": 329,
+    "title": "Portrait of Gabrielle Cot",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1890,
+    "width": 1908,
+    "height": 2304
+  },
+  {
+    "index": 330,
+    "title": "Satan's Flight Through Chaos",
+    "artistName": "Gustave Dore",
+    "completitionYear": 1868,
+    "width": 984,
+    "height": 1210
+  },
+  {
+    "index": 331,
+    "title": "The Birthday",
+    "artistName": "Marc Chagall",
+    "completitionYear": 1915,
+    "width": 2000,
+    "height": 1583
+  },
+  {
+    "index": 332,
+    "title": "The Nightingale's Song at Midnight and the Morning Rain",
+    "artistName": "Joan Miro",
+    "completitionYear": 1940,
+    "width": 703,
+    "height": 575
+  },
+  {
+    "index": 333,
+    "title": "Gringo Pilot (Anola Gay)",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 1421,
+    "height": 1164
+  },
+  {
+    "index": 334,
+    "title": "Summer",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 965,
+    "height": 1860
+  },
+  {
+    "index": 335,
+    "title": "Composition VI",
+    "artistName": "Wassily Kandinsky",
+    "completitionYear": 1913,
+    "width": 1132,
+    "height": 745
+  },
+  {
+    "index": 336,
+    "title": "Evacuee Boy",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1942,
+    "width": 1112,
+    "height": 1408
+  },
+  {
+    "index": 337,
+    "title": "Salome",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1897,
+    "width": 816,
+    "height": 1130
+  },
+  {
+    "index": 338,
+    "title": "Crying Girl",
+    "artistName": "Roy Lichtenstein",
+    "completitionYear": 1964,
+    "width": 499,
+    "height": 504
+  },
+  {
+    "index": 339,
+    "title": "The rose",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1898,
+    "width": 1386,
+    "height": 3186
+  },
+  {
+    "index": 340,
+    "title": "Idylle",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1851,
+    "width": 817,
+    "height": 1102
+  },
+  {
+    "index": 341,
+    "title": "Adam and Eve",
+    "artistName": "Lucas Cranach the Elder",
+    "completitionYear": 1533,
+    "width": 720,
+    "height": 1024
+  },
+  {
+    "index": 342,
+    "title": "Cupid and Psyche",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1889,
+    "width": 1350,
+    "height": 2256
+  },
+  {
+    "index": 343,
+    "title": "Horse Smiling",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1940,
+    "width": 321,
+    "height": 468
+  },
+  {
+    "index": 344,
+    "title": "Pan American Unity",
+    "artistName": "Diego Rivera",
+    "completitionYear": 1940,
+    "width": 1200,
+    "height": 360
+  },
+  {
+    "index": 345,
+    "title": "Queen Elizabeth II",
+    "artistName": "Lucian Freud",
+    "completitionYear": 2001,
+    "width": 683,
+    "height": 1028
+  },
+  {
+    "index": 346,
+    "title": "The Beethoven Frieze: The Longing for Happiness Finds Repose in Poetry. Right wall",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1902,
+    "width": 2420,
+    "height": 1126
+  },
+  {
+    "index": 347,
+    "title": "Self Portrait - Time Flies",
+    "artistName": "Frida Kahlo",
+    "completitionYear": 1929,
+    "width": 883,
+    "height": 1141
+  },
+  {
+    "index": 348,
+    "title": "Net Weight",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 2311,
+    "height": 1887
+  },
+  {
+    "index": 349,
+    "title": "Hector and Andromache",
+    "artistName": "Giorgio de Chirico",
+    "completitionYear": 1912,
+    "width": 1434,
+    "height": 2142
+  },
+  {
+    "index": 350,
+    "title": "Observatory Time: The Lovers",
+    "artistName": "Man Ray",
+    "completitionYear": 1936,
+    "width": 1470,
+    "height": 1079
+  },
+  {
+    "index": 351,
+    "title": "Automobile",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1480,
+    "width": 753,
+    "height": 1183
+  },
+  {
+    "index": 352,
+    "title": "The Archangel Michael defeating Satan",
+    "artistName": "Guido Reni",
+    "completitionYear": 1635,
+    "width": 1657,
+    "height": 2441
+  },
+  {
+    "index": 353,
+    "title": "Teacher's Birthday",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1956,
+    "width": 870,
+    "height": 927
+  },
+  {
+    "index": 354,
+    "title": "Prophetess",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 2262,
+    "height": 1411
+  },
+  {
+    "index": 355,
+    "title": "The Dream (The Bed)",
+    "artistName": "Frida Kahlo",
+    "completitionYear": 1940,
+    "width": 2486,
+    "height": 1856
+  },
+  {
+    "index": 356,
+    "title": "Vertumnus (Emperor Rudolph II)",
+    "artistName": "Giuseppe Arcimboldo",
+    "completitionYear": 1591,
+    "width": 1440,
+    "height": 1888
+  },
+  {
+    "index": 357,
+    "title": "Look Mickey",
+    "artistName": "Roy Lichtenstein",
+    "completitionYear": 1961,
+    "width": 432,
+    "height": 300
+  },
+  {
+    "index": 358,
+    "title": "Odalisques",
+    "artistName": "Henri Matisse",
+    "completitionYear": 1928,
+    "width": 721,
+    "height": 591
+  },
+  {
+    "index": 359,
+    "title": "Portrait of Thomas Cromwell",
+    "artistName": "Hans Holbein the Younger",
+    "completitionYear": 1533,
+    "width": 850,
+    "height": 1036
+  },
+  {
+    "index": 360,
+    "title": "Self-Portrait",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 2061,
+    "height": 1704
+  },
+  {
+    "index": 361,
+    "title": "Pieta",
+    "artistName": "Michelangelo",
+    "completitionYear": 1499,
+    "width": 1584,
+    "height": 1660
+  },
+  {
+    "index": 362,
+    "title": "Luchon",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1895,
+    "width": 1186,
+    "height": 1630
+  },
+  {
+    "index": 363,
+    "title": "Still Life With Bottles",
+    "artistName": "Claude Monet",
+    "completitionYear": 1863,
+    "width": 1280,
+    "height": 850
+  },
+  {
+    "index": 364,
+    "title": "Irish Woman on a Bed",
+    "artistName": "Lucian Freud",
+    "completitionYear": 2004,
+    "width": 1501,
+    "height": 1184
+  },
+  {
+    "index": 365,
+    "title": "Study for the Head of Leda",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1506,
+    "width": 738,
+    "height": 705
+  },
+  {
+    "index": 366,
+    "title": "Red Poppy",
+    "artistName": "Georgia O'Keeffe",
+    "completitionYear": 1927,
+    "width": 678,
+    "height": 529
+  },
+  {
+    "index": 367,
+    "title": "Naked Child Laughing",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1963,
+    "width": 606,
+    "height": 800
+  },
+  {
+    "index": 368,
+    "title": "Sun in an Empty Room",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1963,
+    "width": 1071,
+    "height": 775
+  },
+  {
+    "index": 369,
+    "title": "Studies of central plan buildings",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1480,
+    "width": 750,
+    "height": 1051
+  },
+  {
+    "index": 370,
+    "title": "Landscape",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1914,
+    "width": 649,
+    "height": 1024
+  },
+  {
+    "index": 371,
+    "title": "Dishes and Fruit on a Red and Black Carpet",
+    "artistName": "Henri Matisse",
+    "completitionYear": 1901,
+    "width": 1909,
+    "height": 1575
+  },
+  {
+    "index": 372,
+    "title": "The Dream",
+    "artistName": "Damien Hirst",
+    "completitionYear": 2000,
+    "width": 567,
+    "height": 450
+  },
+  {
+    "index": 373,
+    "title": "André Breton",
+    "artistName": "Man Ray",
+    "completitionYear": 1930,
+    "width": 734,
+    "height": 1080
+  },
+  {
+    "index": 374,
+    "title": "Annunciation",
+    "artistName": "Fra Angelico",
+    "completitionYear": 1434,
+    "width": 1100,
+    "height": 930
+  },
+  {
+    "index": 375,
+    "title": "The Kiss",
+    "artistName": "Man Ray",
+    "completitionYear": 1935,
+    "width": 1946,
+    "height": 1446
+  },
+  {
+    "index": 376,
+    "title": "Female Nude",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1887,
+    "width": 2560,
+    "height": 1805
+  },
+  {
+    "index": 377,
+    "title": "Morning Sun",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1952,
+    "width": 1000,
+    "height": 699
+  },
+  {
+    "index": 378,
+    "title": "Small Naked Portrait",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1974,
+    "width": 800,
+    "height": 665
+  },
+  {
+    "index": 379,
+    "title": "The Madonna of the Carnation",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1480,
+    "width": 1630,
+    "height": 2125
+  },
+  {
+    "index": 380,
+    "title": "Winter",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 471,
+    "height": 900
+  },
+  {
+    "index": 381,
+    "title": "Dance Class at the Opera, rue Le Peletier",
+    "artistName": "Edgar Degas",
+    "completitionYear": 1872,
+    "width": 1121,
+    "height": 800
+  },
+  {
+    "index": 382,
+    "title": "Excavation",
+    "artistName": "Willem de Kooning",
+    "completitionYear": 1950,
+    "width": 1140,
+    "height": 929
+  },
+  {
+    "index": 383,
+    "title": "The Procession to Calvary",
+    "artistName": "Pieter Bruegel the Elder",
+    "completitionYear": 1564,
+    "width": 2505,
+    "height": 1778
+  },
+  {
+    "index": 384,
+    "title": "Obnoxious Liberals",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 2361,
+    "height": 1575
+  },
+  {
+    "index": 385,
+    "title": "Jimmy Best...",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 1976,
+    "height": 1998
+  },
+  {
+    "index": 386,
+    "title": "Helmet",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 1236,
+    "height": 928
+  },
+  {
+    "index": 387,
+    "title": "Perspective drawing for Church of Santo Spirito in Florence",
+    "artistName": "Filippo Brunelleschi",
+    "completitionYear": 1428,
+    "width": 448,
+    "height": 351
+  },
+  {
+    "index": 388,
+    "title": "Over the town",
+    "artistName": "Marc Chagall",
+    "completitionYear": 1918,
+    "width": 800,
+    "height": 619
+  },
+  {
+    "index": 389,
+    "title": "Number 1 (Lavender Mist)",
+    "artistName": "Jackson Pollock",
+    "completitionYear": 1950,
+    "width": 1024,
+    "height": 749
+  },
+  {
+    "index": 390,
+    "title": "Hotel By A Railroad",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1952,
+    "width": 1000,
+    "height": 772
+  },
+  {
+    "index": 391,
+    "title": "Helmet",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 1593,
+    "height": 1785
+  },
+  {
+    "index": 392,
+    "title": "Composition VIII",
+    "artistName": "Wassily Kandinsky",
+    "completitionYear": 1923,
+    "width": 1090,
+    "height": 755
+  },
+  {
+    "index": 393,
+    "title": "Frieda and Diego Rivera",
+    "artistName": "Frida Kahlo",
+    "completitionYear": 1931,
+    "width": 1731,
+    "height": 2231
+  },
+  {
+    "index": 394,
+    "title": "Haystacks at Giverny",
+    "artistName": "Claude Monet",
+    "completitionYear": 1884,
+    "width": 1280,
+    "height": 1020
+  },
+  {
+    "index": 395,
+    "title": "Metamorphosis II",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1939,
+    "width": 7200,
+    "height": 403
+  },
+  {
+    "index": 396,
+    "title": "A Corner of the Studio",
+    "artistName": "Claude Monet",
+    "completitionYear": 1861,
+    "width": 881,
+    "height": 1273
+  },
+  {
+    "index": 397,
+    "title": "Seacoast at Saint-Adresse, Sunset",
+    "artistName": "Claude Monet",
+    "completitionYear": 1864,
+    "width": 1300,
+    "height": 571
+  },
+  {
+    "index": 398,
+    "title": "Blue Dancers",
+    "artistName": "Edgar Degas",
+    "completitionYear": 1899,
+    "width": 1588,
+    "height": 1644
+  },
+  {
+    "index": 399,
+    "title": "The Monet family in their garden at Argenteuil",
+    "artistName": "Edouard Manet",
+    "completitionYear": 1874,
+    "width": 1240,
+    "height": 753
+  },
+  {
+    "index": 400,
+    "title": "Girl on the ball",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1905,
+    "width": 1535,
+    "height": 2447
+  },
+  {
+    "index": 401,
+    "title": "Calla Lily Turned Away",
+    "artistName": "Georgia O'Keeffe",
+    "completitionYear": 1923,
+    "width": 350,
+    "height": 450
+  },
+  {
+    "index": 402,
+    "title": "The Discovery of America by Christopher Columbus",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1959,
+    "width": 1018,
+    "height": 1349
+  },
+  {
+    "index": 403,
+    "title": "Boaters at Argenteuil",
+    "artistName": "Claude Monet",
+    "completitionYear": 1874,
+    "width": 1546,
+    "height": 1198
+  },
+  {
+    "index": 404,
+    "title": "Light of Iris",
+    "artistName": "Georgia O'Keeffe",
+    "completitionYear": 1924,
+    "width": 1502,
+    "height": 2068
+  },
+  {
+    "index": 405,
+    "title": "Portrait of Matisse",
+    "artistName": "Andre Derain",
+    "completitionYear": 1905,
+    "width": 1157,
+    "height": 1536
+  },
+  {
+    "index": 406,
+    "title": "Landscape with House and Ploughman",
+    "artistName": "Vincent van Gogh",
+    "completitionYear": 1889,
+    "width": 1280,
+    "height": 1015
+  },
+  {
+    "index": 407,
+    "title": "Gargantua",
+    "artistName": "Honore Daumier",
+    "completitionYear": 1831,
+    "width": 1780,
+    "height": 1261
+  },
+  {
+    "index": 408,
+    "title": "Young Woman in a Blue Blouse (Portrait of L.N. Delektorskaya)",
+    "artistName": "Henri Matisse",
+    "completitionYear": 1939,
+    "width": 542,
+    "height": 723
+  },
+  {
+    "index": 409,
+    "title": "The Oreads",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1902,
+    "width": 474,
+    "height": 614
+  },
+  {
+    "index": 410,
+    "title": "Boatyard near Honfleur",
+    "artistName": "Claude Monet",
+    "completitionYear": 1864,
+    "width": 1280,
+    "height": 907
+  },
+  {
+    "index": 411,
+    "title": "Grand Maitre of the Outsider",
+    "artistName": "Jean Dubuffet",
+    "completitionYear": 1947,
+    "width": 787,
+    "height": 1066
+  },
+  {
+    "index": 412,
+    "title": "Agnus Dei",
+    "artistName": "Francisco de Zurbaran",
+    "completitionYear": 1640,
+    "width": 900,
+    "height": 537
+  },
+  {
+    "index": 413,
+    "title": "Fiesta in Figueres",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1916,
+    "width": 640,
+    "height": 714
+  },
+  {
+    "index": 414,
+    "title": "The Little Knitter",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1882,
+    "width": 1055,
+    "height": 1552
+  },
+  {
+    "index": 415,
+    "title": "Riding with Death",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1988,
+    "width": 1772,
+    "height": 1508
+  },
+  {
+    "index": 416,
+    "title": "Self Portrait",
+    "artistName": "Marc Chagall",
+    "completitionYear": 1914,
+    "width": 1531,
+    "height": 1782
+  },
+  {
+    "index": 417,
+    "title": "The Duchess of Alba",
+    "artistName": "Francisco Goya",
+    "completitionYear": 1797,
+    "width": 900,
+    "height": 1295
+  },
+  {
+    "index": 418,
+    "title": "Francis Bacon",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1952,
+    "width": 988,
+    "height": 1394
+  },
+  {
+    "index": 419,
+    "title": "M-Maybe",
+    "artistName": "Roy Lichtenstein",
+    "completitionYear": 1965,
+    "width": 433,
+    "height": 432
+  },
+  {
+    "index": 420,
+    "title": "The Arnolfini Wedding. Portrait of Giovanni Arnolfini and his Wife Giovanna Cenami (The Arnolfini Marriage)",
+    "artistName": "Jan van Eyck",
+    "completitionYear": 1434,
+    "width": 4386,
+    "height": 6000
+  },
+  {
+    "index": 421,
+    "title": "Girl and Cat",
+    "artistName": "Balthus",
+    "completitionYear": 1937,
+    "width": 1423,
+    "height": 1620
+  },
+  {
+    "index": 422,
+    "title": "Flower of Life II",
+    "artistName": "Georgia O'Keeffe",
+    "completitionYear": 1925,
+    "width": 1024,
+    "height": 1208
+  },
+  {
+    "index": 423,
+    "title": "Moses",
+    "artistName": "Frida Kahlo",
+    "completitionYear": 1945,
+    "width": 1813,
+    "height": 1456
+  },
+  {
+    "index": 424,
+    "title": "The Enigma of My Desire or My Mother, My Mother, My Mother",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1929,
+    "width": 2143,
+    "height": 1600
+  },
+  {
+    "index": 425,
+    "title": "Ophelia",
+    "artistName": "John Everett Millais",
+    "completitionYear": 1852,
+    "width": 1920,
+    "height": 1306
+  },
+  {
+    "index": 426,
+    "title": "Hopeless",
+    "artistName": "Roy Lichtenstein",
+    "completitionYear": 1963,
+    "width": 432,
+    "height": 432
+  },
+  {
+    "index": 427,
+    "title": "A Farmyard in Normandy",
+    "artistName": "Claude Monet",
+    "completitionYear": 1863,
+    "width": 1280,
+    "height": 974
+  },
+  {
+    "index": 428,
+    "title": "The barefoot girl",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1895,
+    "width": 1573,
+    "height": 2454
+  },
+  {
+    "index": 429,
+    "title": "L.H.O.O.Q, Mona Lisa with moustache",
+    "artistName": "Marcel Duchamp",
+    "completitionYear": 1919,
+    "width": 1062,
+    "height": 1762
+  },
+  {
+    "index": 430,
+    "title": "On White II",
+    "artistName": "Wassily Kandinsky",
+    "completitionYear": 1923,
+    "width": 510,
+    "height": 620
+  },
+  {
+    "index": 431,
+    "title": "Notary",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1983,
+    "width": 4947,
+    "height": 2405
+  },
+  {
+    "index": 432,
+    "title": "Painting",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1898,
+    "width": 1075,
+    "height": 1712
+  },
+  {
+    "index": 433,
+    "title": "Spring Flowers",
+    "artistName": "Claude Monet",
+    "completitionYear": 1864,
+    "width": 1700,
+    "height": 2337
+  },
+  {
+    "index": 434,
+    "title": "Stephen Spender",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1940,
+    "width": 377,
+    "height": 450
+  },
+  {
+    "index": 435,
+    "title": "Chocolat Ideal",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1897,
+    "width": 1078,
+    "height": 1669
+  },
+  {
+    "index": 436,
+    "title": "Portrait of Ginevra Benci",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1474,
+    "width": 1024,
+    "height": 1087
+  },
+  {
+    "index": 437,
+    "title": "New York City I",
+    "artistName": "Piet Mondrian",
+    "completitionYear": 1942,
+    "width": 818,
+    "height": 850
+  },
+  {
+    "index": 438,
+    "title": "Memory of London",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1939,
+    "width": 300,
+    "height": 370
+  },
+  {
+    "index": 439,
+    "title": "The Black Sea at night",
+    "artistName": "Ivan Aivazovsky",
+    "completitionYear": 1879,
+    "width": 765,
+    "height": 1000
+  },
+  {
+    "index": 440,
+    "title": "The proportions of the human figure (The Vitruvian Man)",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1492,
+    "width": 592,
+    "height": 843
+  },
+  {
+    "index": 441,
+    "title": "Andromeda",
+    "artistName": "Gustave Dore",
+    "completitionYear": 1869,
+    "width": 661,
+    "height": 1000
+  },
+  {
+    "index": 442,
+    "title": "Black Square",
+    "artistName": "Kazimir Malevich",
+    "completitionYear": 1915,
+    "width": 1196,
+    "height": 1199
+  },
+  {
+    "index": 443,
+    "title": "Large Interior W11 (after Watteau)",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1983,
+    "width": 743,
+    "height": 705
+  },
+  {
+    "index": 444,
+    "title": "Lighthouse at the Hospice",
+    "artistName": "Claude Monet",
+    "completitionYear": 1864,
+    "width": 1280,
+    "height": 848
+  },
+  {
+    "index": 445,
+    "title": "Blue Still Life",
+    "artistName": "Henri Matisse",
+    "completitionYear": 1917,
+    "width": 709,
+    "height": 541
+  },
+  {
+    "index": 446,
+    "title": "Manhattan Bridge Loop",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1928,
+    "width": 1500,
+    "height": 874
+  },
+  {
+    "index": 447,
+    "title": "Tuxedo",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 1596,
+    "height": 2864
+  },
+  {
+    "index": 448,
+    "title": "Beat the Whites with the Red Wedge",
+    "artistName": "El Lissitzky",
+    "completitionYear": 1920,
+    "width": 1129,
+    "height": 900
+  },
+  {
+    "index": 449,
+    "title": "Poppy Field in Giverny",
+    "artistName": "Claude Monet",
+    "completitionYear": 1890,
+    "width": 1280,
+    "height": 759
+  },
+  {
+    "index": 450,
+    "title": "The Joy of Life",
+    "artistName": "Henri Matisse",
+    "completitionYear": 1906,
+    "width": 1088,
+    "height": 784
+  },
+  {
+    "index": 451,
+    "title": "The Runaway",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1958,
+    "width": 1769,
+    "height": 2008
+  },
+  {
+    "index": 452,
+    "title": "Hegel's Holiday",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1958,
+    "width": 597,
+    "height": 714
+  },
+  {
+    "index": 453,
+    "title": "The Lady of Shalott",
+    "artistName": "John William Waterhouse",
+    "completitionYear": 1888,
+    "width": 1500,
+    "height": 1141
+  },
+  {
+    "index": 454,
+    "title": "Skull",
+    "artistName": "Octavio Ocampo",
+    "completitionYear": 1980,
+    "width": 458,
+    "height": 648
+  },
+  {
+    "index": 455,
+    "title": "Portrait of a Young Man",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1944,
+    "width": 1003,
+    "height": 1142
+  },
+  {
+    "index": 456,
+    "title": "Tahitian mountains",
+    "artistName": "Paul Gauguin",
+    "completitionYear": 1893,
+    "width": 1126,
+    "height": 832
+  },
+  {
+    "index": 457,
+    "title": "Hotel Bedroom",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1954,
+    "width": 1815,
+    "height": 2717
+  },
+  {
+    "index": 458,
+    "title": "Cat and Bird",
+    "artistName": "Paul Klee",
+    "completitionYear": 1928,
+    "width": 800,
+    "height": 566
+  },
+  {
+    "index": 459,
+    "title": "Ascension",
+    "artistName": "Salvador Dali",
+    "completitionYear": 1958,
+    "width": 700,
+    "height": 665
+  },
+  {
+    "index": 460,
+    "title": "The Autumn",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 965,
+    "height": 1868
+  },
+  {
+    "index": 461,
+    "title": "The girls of Avignon",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1907,
+    "width": 1925,
+    "height": 2000
+  },
+  {
+    "index": 462,
+    "title": "In the forest Saint Cloud",
+    "artistName": "Paul Gauguin",
+    "completitionYear": 1873,
+    "width": 1134,
+    "height": 805
+  },
+  {
+    "index": 463,
+    "title": "Houses at Argenteuil",
+    "artistName": "Claude Monet",
+    "completitionYear": 1873,
+    "width": 1537,
+    "height": 1155
+  },
+  {
+    "index": 464,
+    "title": "The Virgin",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1913,
+    "width": 1741,
+    "height": 1671
+  },
+  {
+    "index": 465,
+    "title": "The gossips",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1948,
+    "width": 1769,
+    "height": 1987
+  },
+  {
+    "index": 466,
+    "title": "The Climax",
+    "artistName": "Aubrey Beardsley",
+    "completitionYear": 1893,
+    "width": 1983,
+    "height": 2656
+  },
+  {
+    "index": 467,
+    "title": "Portrait of Dora Maar",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1937,
+    "width": 755,
+    "height": 1088
+  },
+  {
+    "index": 468,
+    "title": "Room in New York",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1932,
+    "width": 1600,
+    "height": 1276
+  },
+  {
+    "index": 469,
+    "title": "Tableau I",
+    "artistName": "Piet Mondrian",
+    "completitionYear": 1921,
+    "width": 700,
+    "height": 1133
+  },
+  {
+    "index": 470,
+    "title": "Portrait of aunt Pepa",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1896,
+    "width": 952,
+    "height": 1088
+  },
+  {
+    "index": 471,
+    "title": "Baby Boom",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 2337,
+    "height": 1352
+  },
+  {
+    "index": 472,
+    "title": "The Painter's Room",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1944,
+    "width": 1315,
+    "height": 1097
+  },
+  {
+    "index": 473,
+    "title": "Bénédictine",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1898,
+    "width": 610,
+    "height": 1734
+  },
+  {
+    "index": 474,
+    "title": "At the Edge of the Brook",
+    "artistName": "William-Adolphe Bouguereau",
+    "completitionYear": 1875,
+    "width": 1146,
+    "height": 1808
+  },
+  {
+    "index": 475,
+    "title": "Water Snakes II",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1907,
+    "width": 2700,
+    "height": 1560
+  },
+  {
+    "index": 476,
+    "title": "Irises in Monet's Garden",
+    "artistName": "Claude Monet",
+    "completitionYear": 1900,
+    "width": 3050,
+    "height": 2540
+  },
+  {
+    "index": 477,
+    "title": "I and the Village",
+    "artistName": "Marc Chagall",
+    "completitionYear": 1911,
+    "width": 1571,
+    "height": 2000
+  },
+  {
+    "index": 478,
+    "title": "Girl in a Blanket",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1953,
+    "width": 471,
+    "height": 640
+  },
+  {
+    "index": 479,
+    "title": "Rhythm no.1",
+    "artistName": "Robert Delaunay",
+    "completitionYear": 1938,
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "index": 480,
+    "title": "Road in a Forest Fontainebleau",
+    "artistName": "Claude Monet",
+    "completitionYear": 1864,
+    "width": 900,
+    "height": 643
+  },
+  {
+    "index": 481,
+    "title": "Fuji, Mountains in clear Weather  (Red Fuji)",
+    "artistName": "Katsushika Hokusai",
+    "completitionYear": 1831,
+    "width": 4400,
+    "height": 2937
+  },
+  {
+    "index": 482,
+    "title": "Profile of a warrior in helmet",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1472,
+    "width": 730,
+    "height": 1010
+  },
+  {
+    "index": 483,
+    "title": "775 Park",
+    "artistName": "Friedensreich Hundertwasser",
+    "completitionYear": 1978,
+    "width": 334,
+    "height": 480
+  },
+  {
+    "index": 484,
+    "title": "The Birth and Triumph of Venus",
+    "artistName": "Francois Boucher",
+    "completitionYear": 1740,
+    "width": 4200,
+    "height": 3352
+  },
+  {
+    "index": 485,
+    "title": "A rooster",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1938,
+    "width": 775,
+    "height": 1088
+  },
+  {
+    "index": 486,
+    "title": "Self-Portrait",
+    "artistName": "Vincent van Gogh",
+    "completitionYear": 1887,
+    "width": 1758,
+    "height": 2186
+  },
+  {
+    "index": 487,
+    "title": "The Sunflower",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1907,
+    "width": 1360,
+    "height": 1911
+  },
+  {
+    "index": 488,
+    "title": "Ascending & Descending",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1960,
+    "width": 1280,
+    "height": 1605
+  },
+  {
+    "index": 489,
+    "title": "Philosophy (final state)",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1907,
+    "width": 1335,
+    "height": 1957
+  },
+  {
+    "index": 490,
+    "title": "Girl in a Dark Jacket",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1947,
+    "width": 1219,
+    "height": 1556
+  },
+  {
+    "index": 491,
+    "title": "Kiss",
+    "artistName": "Edvard Munch",
+    "completitionYear": 1897,
+    "width": 1408,
+    "height": 1770
+  },
+  {
+    "index": 492,
+    "title": "The Sick Child (later)",
+    "artistName": "Edvard Munch",
+    "completitionYear": 1907,
+    "width": 512,
+    "height": 498
+  },
+  {
+    "index": 493,
+    "title": "Beech Grove I",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1902,
+    "width": 2600,
+    "height": 2593
+  },
+  {
+    "index": 494,
+    "title": "The seasons (Spring, Summer)",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1898,
+    "width": 702,
+    "height": 768
+  },
+  {
+    "index": 495,
+    "title": "Poplars on the Banks of the River Epte, Seen from the Marsh",
+    "artistName": "Claude Monet",
+    "completitionYear": 1892,
+    "width": 1149,
+    "height": 1101
+  },
+  {
+    "index": 496,
+    "title": "Nuda Veritas",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1899,
+    "width": 1212,
+    "height": 4854
+  },
+  {
+    "index": 497,
+    "title": "Putti, detail from The Sistine Madonna",
+    "artistName": "Raphael",
+    "completitionYear": 1513,
+    "width": 1134,
+    "height": 675
+  },
+  {
+    "index": 498,
+    "title": "Still life with teapot and fruit",
+    "artistName": "Henri Rousseau",
+    "completitionYear": 1910,
+    "width": 1668,
+    "height": 2265
+  },
+  {
+    "index": 499,
+    "title": "Still Life with Blue Enamel Coffeepot, Earthenware and Fruit",
+    "artistName": "Vincent van Gogh",
+    "completitionYear": 1888,
+    "width": 2315,
+    "height": 1764
+  },
+  {
+    "index": 500,
+    "title": "Creation",
+    "artistName": "Diego Rivera",
+    "completitionYear": 1923,
+    "width": 800,
+    "height": 619
+  },
+  {
+    "index": 501,
+    "title": "Paradise",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1921,
+    "width": 1220,
+    "height": 656
+  },
+  {
+    "index": 502,
+    "title": "The Arts: Dance",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1898,
+    "width": 619,
+    "height": 900
+  },
+  {
+    "index": 503,
+    "title": "Man's Head, Self Portrait",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1963,
+    "width": 787,
+    "height": 800
+  },
+  {
+    "index": 504,
+    "title": "Berthe Morisot with a bouquet of violets",
+    "artistName": "Edouard Manet",
+    "completitionYear": 1872,
+    "width": 800,
+    "height": 1121
+  },
+  {
+    "index": 505,
+    "title": "Portrait of Ambroise Vollard",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1910,
+    "width": 746,
+    "height": 1088
+  },
+  {
+    "index": 506,
+    "title": "Dancers in Pink",
+    "artistName": "Edgar Degas",
+    "completitionYear": 1885,
+    "width": 700,
+    "height": 587
+  },
+  {
+    "index": 507,
+    "title": "Absolut Warhol (Absolut Vodka)",
+    "artistName": "Andy Warhol",
+    "completitionYear": 1986,
+    "width": 384,
+    "height": 512
+  },
+  {
+    "index": 508,
+    "title": "Portrait of Stephen Spender",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1940,
+    "width": 433,
+    "height": 620
+  },
+  {
+    "index": 509,
+    "title": "The Vision after the Sermon (Jacob wrestling with the Angel)",
+    "artistName": "Paul Gauguin",
+    "completitionYear": 1888,
+    "width": 1119,
+    "height": 891
+  },
+  {
+    "index": 510,
+    "title": "The Tattooist",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1944,
+    "width": 846,
+    "height": 1054
+  },
+  {
+    "index": 511,
+    "title": "Football Hero",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1955,
+    "width": 843,
+    "height": 984
+  },
+  {
+    "index": 512,
+    "title": "Self-Portrait",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1896,
+    "width": 1422,
+    "height": 2162
+  },
+  {
+    "index": 513,
+    "title": "Summertime",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1943,
+    "width": 2070,
+    "height": 1496
+  },
+  {
+    "index": 514,
+    "title": "Breton Woman and Goose by the Water",
+    "artistName": "Paul Gauguin",
+    "completitionYear": 1888,
+    "width": 1130,
+    "height": 704
+  },
+  {
+    "index": 515,
+    "title": "Violet, Black, Orange, Yellow on White and Red",
+    "artistName": "Mark Rothko",
+    "completitionYear": 1949,
+    "width": 700,
+    "height": 865
+  },
+  {
+    "index": 516,
+    "title": "Farm near Honfleur",
+    "artistName": "Claude Monet",
+    "completitionYear": 1864,
+    "width": 1218,
+    "height": 1024
+  },
+  {
+    "index": 517,
+    "title": "The Golden Days",
+    "artistName": "Balthus",
+    "completitionYear": 1945,
+    "width": 2346,
+    "height": 1715
+  },
+  {
+    "index": 518,
+    "title": "The Promenade, Woman with a Parasol",
+    "artistName": "Claude Monet",
+    "completitionYear": 1875,
+    "width": 2120,
+    "height": 2610
+  },
+  {
+    "index": 519,
+    "title": "Study of Drapery",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1900,
+    "width": 1007,
+    "height": 1410
+  },
+  {
+    "index": 520,
+    "title": "The Lady with an Ermine (Cecilia Gallerani)",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1490,
+    "width": 2048,
+    "height": 2754
+  },
+  {
+    "index": 521,
+    "title": "All Colored Cast (Part III)",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 1556,
+    "height": 1554
+  },
+  {
+    "index": 522,
+    "title": "Buddha",
+    "artistName": "Octavio Ocampo",
+    "completitionYear": 1982,
+    "width": 458,
+    "height": 550
+  },
+  {
+    "index": 523,
+    "title": "Roots",
+    "artistName": "Frida Kahlo",
+    "completitionYear": 1943,
+    "width": 2549,
+    "height": 1513
+  },
+  {
+    "index": 524,
+    "title": "Fort Vimieux",
+    "artistName": "J.M.W. Turner",
+    "completitionYear": 1831,
+    "width": 1105,
+    "height": 757
+  },
+  {
+    "index": 525,
+    "title": "Summer Interior",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1909,
+    "width": 1469,
+    "height": 1221
+  },
+  {
+    "index": 526,
+    "title": "Canary and Peony",
+    "artistName": "Katsushika Hokusai",
+    "completitionYear": 1834,
+    "width": 683,
+    "height": 1000
+  },
+  {
+    "index": 527,
+    "title": "Harlequin's Carnival",
+    "artistName": "Joan Miro",
+    "completitionYear": 1925,
+    "width": 1834,
+    "height": 1345
+  },
+  {
+    "index": 528,
+    "title": "Visits a Ration Board",
+    "artistName": "Norman Rockwell",
+    "completitionYear": 1944,
+    "width": 1158,
+    "height": 711
+  },
+  {
+    "index": 529,
+    "title": "The Goat Herd",
+    "artistName": "Vincent van Gogh",
+    "completitionYear": 1862,
+    "width": 1024,
+    "height": 775
+  },
+  {
+    "index": 530,
+    "title": "Bust of young man",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1895,
+    "width": 944,
+    "height": 1088
+  },
+  {
+    "index": 531,
+    "title": "The Third of May 1808 (Execution of the Defenders of Madrid)",
+    "artistName": "Francisco Goya",
+    "completitionYear": 1814,
+    "width": 3051,
+    "height": 2328
+  },
+  {
+    "index": 532,
+    "title": "Nude",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1919,
+    "width": 556,
+    "height": 800
+  },
+  {
+    "index": 533,
+    "title": "Dynamism of a Dog on a Leash",
+    "artistName": "Giacomo Balla",
+    "completitionYear": 1912,
+    "width": 1388,
+    "height": 1184
+  },
+  {
+    "index": 534,
+    "title": "Head of a girl",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1483,
+    "width": 876,
+    "height": 1003
+  },
+  {
+    "index": 535,
+    "title": "Queensborough Bridge",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1913,
+    "width": 1000,
+    "height": 680
+  },
+  {
+    "index": 536,
+    "title": "Girl with her Eyes Closed",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1944,
+    "width": 328,
+    "height": 512
+  },
+  {
+    "index": 537,
+    "title": "Ali",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1974,
+    "width": 1399,
+    "height": 1571
+  },
+  {
+    "index": 538,
+    "title": "In this Case",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1983,
+    "width": 1266,
+    "height": 1346
+  },
+  {
+    "index": 539,
+    "title": "The Village Boys",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1942,
+    "width": 466,
+    "height": 588
+  },
+  {
+    "index": 540,
+    "title": "Medusa",
+    "artistName": "Caravaggio",
+    "completitionYear": 1597,
+    "width": 3369,
+    "height": 3453
+  },
+  {
+    "index": 541,
+    "title": "Girl in Bed",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1952,
+    "width": 515,
+    "height": 800
+  },
+  {
+    "index": 542,
+    "title": "Rice and Chicken",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 1995,
+    "height": 1596
+  },
+  {
+    "index": 543,
+    "title": "The rocks of Belle-Ile",
+    "artistName": "Claude Monet",
+    "completitionYear": 1886,
+    "width": 1136,
+    "height": 936
+  },
+  {
+    "index": 544,
+    "title": "Composition with Large Red Plane, Yellow, Black, Gray and Blue",
+    "artistName": "Piet Mondrian",
+    "completitionYear": 1921,
+    "width": 799,
+    "height": 800
+  },
+  {
+    "index": 545,
+    "title": "Naked Portrait",
+    "artistName": "Lucian Freud",
+    "completitionYear": 2005,
+    "width": 1208,
+    "height": 1471
+  },
+  {
+    "index": 546,
+    "title": "Naked Man with his Friend",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1980,
+    "width": 800,
+    "height": 725
+  },
+  {
+    "index": 547,
+    "title": "Water Lilies, Evening Effect",
+    "artistName": "Claude Monet",
+    "completitionYear": 1899,
+    "width": 1280,
+    "height": 923
+  },
+  {
+    "index": 548,
+    "title": "Fragment Head of Gerald Wilde",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1943,
+    "width": 330,
+    "height": 450
+  },
+  {
+    "index": 549,
+    "title": "Young girl eating a bird (The pleasure)",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1927,
+    "width": 1049,
+    "height": 786
+  },
+  {
+    "index": 550,
+    "title": "Castle (Castle Fairy Tale)",
+    "artistName": "Mikalojus Konstantinas Ciurlionis",
+    "completitionYear": 1909,
+    "width": 1024,
+    "height": 817
+  },
+  {
+    "index": 551,
+    "title": "Mona Lisa's Chair",
+    "artistName": "Octavio Ocampo",
+    "completitionYear": 1983,
+    "width": 1220,
+    "height": 1561
+  },
+  {
+    "index": 552,
+    "title": "Van Gogh's Chair",
+    "artistName": "Vincent van Gogh",
+    "completitionYear": 1889,
+    "width": 1687,
+    "height": 2202
+  },
+  {
+    "index": 553,
+    "title": "Idylls of the King",
+    "artistName": "Gustave Dore",
+    "completitionYear": 1868,
+    "width": 920,
+    "height": 1210
+  },
+  {
+    "index": 554,
+    "title": "New York Office",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1962,
+    "width": 1463,
+    "height": 1215
+  },
+  {
+    "index": 555,
+    "title": "Repetition of the Dance (detail)",
+    "artistName": "Edgar Degas",
+    "completitionYear": 1877,
+    "width": 3052,
+    "height": 3452
+  },
+  {
+    "index": 556,
+    "title": "Mother and Child",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1905,
+    "width": 768,
+    "height": 1088
+  },
+  {
+    "index": 557,
+    "title": "992 City View",
+    "artistName": "Friedensreich Hundertwasser",
+    "completitionYear": 1994,
+    "width": 640,
+    "height": 464
+  },
+  {
+    "index": 558,
+    "title": "Lee Miller",
+    "artistName": "Man Ray",
+    "completitionYear": 1930,
+    "width": 380,
+    "height": 500
+  },
+  {
+    "index": 559,
+    "title": "Baptism",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 1584,
+    "height": 1564
+  },
+  {
+    "index": 560,
+    "title": "Swallow, Love",
+    "artistName": "Joan Miro",
+    "completitionYear": 1934,
+    "width": 746,
+    "height": 595
+  },
+  {
+    "index": 561,
+    "title": "Children's Games",
+    "artistName": "Pieter Bruegel the Elder",
+    "completitionYear": 1560,
+    "width": 3000,
+    "height": 2165
+  },
+  {
+    "index": 562,
+    "title": "The Kiss",
+    "artistName": "Auguste Rodin",
+    "completitionYear": 1904,
+    "width": 1128,
+    "height": 1556
+  },
+  {
+    "index": 563,
+    "title": "Pork  Sans",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1981,
+    "width": 1324,
+    "height": 2940
+  },
+  {
+    "index": 564,
+    "title": "Design for a Giant Crossbow",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1482,
+    "width": 541,
+    "height": 398
+  },
+  {
+    "index": 565,
+    "title": "A Painter",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1962,
+    "width": 658,
+    "height": 847
+  },
+  {
+    "index": 566,
+    "title": "The Three Ages of Woman",
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1905,
+    "width": 1986,
+    "height": 2000
+  },
+  {
+    "index": 567,
+    "title": "King Brand",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1983,
+    "width": 2091,
+    "height": 1582
+  },
+  {
+    "index": 568,
+    "title": "Paradise Lost",
+    "artistName": "Gustave Dore",
+    "completitionYear": 1866,
+    "width": 979,
+    "height": 1210
+  },
+  {
+    "index": 569,
+    "title": "Madonna Litta (Madonna and the Child)",
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1490,
+    "width": 706,
+    "height": 900
+  },
+  {
+    "index": 570,
+    "title": "Eli and David",
+    "artistName": "Lucian Freud",
+    "completitionYear": 2006,
+    "width": 480,
+    "height": 588
+  },
+  {
+    "index": 571,
+    "title": "Robert Fellowes",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1999,
+    "width": 1066,
+    "height": 1259
+  },
+  {
+    "index": 572,
+    "title": "Man in a Bowler Hat",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1964,
+    "width": 1252,
+    "height": 1627
+  },
+  {
+    "index": 573,
+    "title": "Naked Girl Asleep II",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1968,
+    "width": 933,
+    "height": 921
+  },
+  {
+    "index": 574,
+    "title": "The Absinthe Drinker",
+    "artistName": "Edgar Degas",
+    "completitionYear": 1876,
+    "width": 1200,
+    "height": 1646
+  },
+  {
+    "index": 575,
+    "title": "Three Worlds",
+    "artistName": "M.C. Escher",
+    "completitionYear": 1955,
+    "width": 1280,
+    "height": 1870
+  },
+  {
+    "index": 576,
+    "title": "Lamentation (The Mourning of Christ)",
+    "artistName": "Giotto",
+    "completitionYear": 1306,
+    "width": 1000,
+    "height": 925
+  },
+  {
+    "index": 577,
+    "title": "Campbell's Soup Can (Tomato/Pink)",
+    "artistName": "Andy Warhol",
+    "completitionYear": 1968,
+    "width": 334,
+    "height": 500
+  },
+  {
+    "index": 578,
+    "title": "Girl with a Kitten",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1947,
+    "width": 649,
+    "height": 861
+  },
+  {
+    "index": 579,
+    "title": "The Judgement of Paris",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1895,
+    "width": 1050,
+    "height": 1375
+  },
+  {
+    "index": 580,
+    "title": "The red egg",
+    "artistName": "Oskar Kokoschka",
+    "completitionYear": 1941,
+    "width": 1042,
+    "height": 817
+  },
+  {
+    "index": 581,
+    "title": "Companions of Fear",
+    "artistName": "Rene Magritte",
+    "completitionYear": 1942,
+    "width": 742,
+    "height": 574
+  },
+  {
+    "index": 582,
+    "title": "Mask Still Life III",
+    "artistName": "Emil Nolde",
+    "completitionYear": 1911,
+    "width": 940,
+    "height": 882
+  },
+  {
+    "index": 583,
+    "title": "The old fisherman",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1895,
+    "width": 827,
+    "height": 1088
+  },
+  {
+    "index": 584,
+    "title": "Head of a woman (Portrait of Lady Elizabeth Cavendish)",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1950,
+    "width": 589,
+    "height": 800
+  },
+  {
+    "index": 585,
+    "title": "The Disquieting Muses",
+    "artistName": "Giorgio de Chirico",
+    "completitionYear": 1918,
+    "width": 1457,
+    "height": 2136
+  },
+  {
+    "index": 586,
+    "title": "Self-Portrait with Seven Digits",
+    "artistName": "Marc Chagall",
+    "completitionYear": 1913,
+    "width": 858,
+    "height": 1004
+  },
+  {
+    "index": 587,
+    "title": "Trumpet",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1984,
+    "width": 1891,
+    "height": 1888
+  },
+  {
+    "index": 588,
+    "title": "Composition No.10",
+    "artistName": "Piet Mondrian",
+    "completitionYear": 1942,
+    "width": 882,
+    "height": 968
+  },
+  {
+    "index": 589,
+    "title": "Self-Portrait",
+    "artistName": "Lucian Freud",
+    "completitionYear": 2002,
+    "width": 422,
+    "height": 695
+  },
+  {
+    "index": 590,
+    "title": "The white skirt",
+    "artistName": "Balthus",
+    "completitionYear": 1937,
+    "width": 1965,
+    "height": 1440
+  },
+  {
+    "index": 591,
+    "title": "Black Tar and Feathers",
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "width": 1809,
+    "height": 2114
+  },
+  {
+    "index": 592,
+    "title": "The Circle Theatre",
+    "artistName": "Edward Hopper",
+    "completitionYear": 1936,
+    "width": 1054,
+    "height": 798
+  },
+  {
+    "index": 593,
+    "title": "The Garden at Bellevue",
+    "artistName": "Edouard Manet",
+    "completitionYear": 1880,
+    "width": 517,
+    "height": 681
+  },
+  {
+    "index": 594,
+    "title": "The Woman in Red",
+    "artistName": "Giovanni Boldini",
+    "completitionYear": 1878,
+    "width": 378,
+    "height": 600
+  },
+  {
+    "index": 595,
+    "title": "The Ninth Wave",
+    "artistName": "Ivan Aivazovsky",
+    "completitionYear": 1850,
+    "width": 5090,
+    "height": 3420
+  },
+  {
+    "index": 596,
+    "title": "After Chardin",
+    "artistName": "Lucian Freud",
+    "completitionYear": 1999,
+    "width": 567,
+    "height": 480
+  },
+  {
+    "index": 597,
+    "title": "Girl in Front of Mirror",
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1932,
+    "width": 866,
+    "height": 1088
+  },
+  {
+    "index": 598,
+    "title": "Easter Chimes Awaken Nature",
+    "artistName": "Alphonse Mucha",
+    "completitionYear": 1896,
+    "width": 935,
+    "height": 1180
+  },
+  {
+    "index": 599,
+    "title": "Road to the Saint-Simeon Farm",
+    "artistName": "Claude Monet",
+    "completitionYear": 1864,
+    "width": 1000,
+    "height": 1785
+  },
+  {
+    "index": 600,
+    "title": "Sally Clarke",
+    "artistName": "Lucian Freud",
+    "completitionYear": 2008,
+    "width": 354,
+    "height": 400
+  }
+]
